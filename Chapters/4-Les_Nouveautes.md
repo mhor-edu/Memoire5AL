@@ -1,2 +1,2 @@
-#IV/Ca va bientot arriver!
+#IV/ Ca va bientôt arriver!
 ---
