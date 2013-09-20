@@ -11,4 +11,4 @@ See `ContentTable.md` file
 
 ##Licence
 
-See `LICENCE` file
+See `LICENSE` file
