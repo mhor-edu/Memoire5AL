@@ -1,3 +1,4 @@
+
 # Introduction
 
 On entend de plus en plus parler de d'intégration continu dans le média spécialisé, de plus en plus d'entreprise se spécialise dans ce domaine, mais le public sait il réélement de quoi il s'agit? Sans doute il aura sait que cette technologie sers à améliorer la qualité du code, mais en sait-il réélement plus? C'est pour celà que nous avons décider dans ce document de faire un panorama très exhaustif de ce qu'est l'intégration continue.
