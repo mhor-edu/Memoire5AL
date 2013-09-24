@@ -1,5 +1,5 @@
-#I/ Introduction:
----
+# Introduction
+
 On entend de plus en plus parler de d'intégration continu dans le média spécialisé, de plus en plus d'entreprise se spécialise dans ce domaine, mais le public sait il réélement de quoi il s'agit? Sans doute il aura sait que cette technologie sers à améliorer la qualité du code, mais en sait-il réélement plus? C'est pour celà que nous avons décider dans ce document de faire un panorama très exhaustif de ce qu'est l'intégration continue.
 
 Pour repondre à notre sujet ce document sera découpé en trois grandes parties. Une premiere expliquera en quoi consiste globalement l'intégration continue et ce qu'elle peut apporter à un projet. Dans la seconde nous verrons les types outils les plus utilisé et pourquoi les mettre en place. Et enfin notre derniere partie nous aborderont les outils encore peu connu et très peut utilisé par les entreprises qui pourrait bien révolutionner ce qui existe à l'heure actuel en matière d'intégration continue et pour cela nous irons regarder se qu'il ce passe du coté du monde de l'open source.

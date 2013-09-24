@@ -1,5 +1,4 @@
-#Table des Matières
----
+# Table des Matières
 
 [I/ Introduction](https://github.com/mhor/Memoire5AL/blob/master/Chapters/1-Introduction.md)
 
