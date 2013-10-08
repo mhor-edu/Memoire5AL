@@ -7,7 +7,7 @@ Mémoire de recherche à propos de "Les enjeux de l’intégration continue".
 
 ## Table des matières
 
-[Introduction](./master/Chapters/1-Introduction.md)
+[Introduction](./Chapters/1-Introduction.md)
 
 ## Compilation du projet
 
