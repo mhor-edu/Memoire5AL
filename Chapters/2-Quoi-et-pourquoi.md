@@ -1,5 +1,5 @@
 
-# L'integration continue
+# L'intégration continue
 
 ## Principe
 
@@ -7,11 +7,11 @@
 
 ## Les motivations des entreprises
 
-Pourquoi de nos jours les entreprises opte pour l'intégration continu ?
+La question d'utilisée l'intégration continue se pose avant que le projet commence de la même façon que les entreprises, donc pourquoi de nos jours les entreprises optent pour l'intégration continue ? La question est simple mais reste complexe dans le cas où certaine entreprise reste perplexe à cette pratique car ils ne l'ont généralement jamais testé.
 
 Marketing
 
-* Demande de démonstrations non planifiées
+* Demande de démonstrations non planifiées	
 
 Budgets
 
