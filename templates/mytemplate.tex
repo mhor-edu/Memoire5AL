@@ -27,15 +27,31 @@ $endif$
 	$if(mathfont)$ \setmathfont{$mathfont$} $endif$
 \fi
 
+%Start Fancy
 \usepackage{fancyhdr}
 \pagestyle{fancy}
+\fancyhf{}
+
+\renewcommand\footrule{\begin{minipage}{1\textwidth}
+\hrule width \hsize height 0pt \kern 1mm \hrule width \hsize   
+\end{minipage}\par}%
+
+\renewcommand\headrule{
+\begin{minipage}{1\textwidth}
+\hrule width \hsize \kern 1mm \hrule width \hsize height 0pt 
+\end{minipage}}%
+
 \pagenumbering{arabic}
-\lhead{\itshape $title$}
-\chead{}
-\rhead{\itshape{\nouppercase{\leftmark}}}
-\lfoot{Cédric TESNIERE \& Maxime HORCHOLLE}
-\cfoot{}
-\rfoot{\thepage\ sur \pageref{LastPage}}
+
+\fancyheadoffset{0pt}
+\fancyhead[L]{\itshape $title$}
+\fancyhead[R]{\itshape{\nouppercase{\leftmark}}}
+
+\fancyfootoffset{0pt}
+\fancyfoot[L]{Cédric TESNIERE \& Maxime HORCHOLLE}
+\fancyfoot[R]{\thepage\ sur \pageref{LastPage}}
+
+%End Fandy
 
 $if(geometry)$
 	\usepackage[$for(geometry)$$geometry$$sep$,$endfor$]{geometry}
@@ -127,6 +143,7 @@ $if(title)$ \title{$title$} $endif$
 		\tableofcontents
 	}
 	$endif$
+	\newpage
 	$body$
 		$if(natbib)$
 			$if(biblio-files)$
