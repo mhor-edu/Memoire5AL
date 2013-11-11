@@ -3,6 +3,6 @@
 
 ### Les tests unitaires
 
-### Les tests fonctionnelles
+### Les tests fonctionnels
 
 ### Les tests d'intégrations
