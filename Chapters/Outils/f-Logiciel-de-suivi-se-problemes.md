@@ -1,1 +1,7 @@
-## Logiciel de suivi se problemes
+## Logiciel de suivi de problemes
+
+Aussi communément appelé Bugtrackers se sont tout les outils qui servent à suivre l'évolution du projet. Dedans sont consigné les évolutions et les bugs de l'application. Ce qui est très utile pour gardé un historique de tout ce qui à été réalisé jusqu'alors. C'est aussi un outils indispensable pour distribué les tâches.
+
+Avant la création de ce genre d'outils la gestion de projet était bien plus difficile et l'équipe était beaucoup moins réactive puisque que l'information était souvent soit non mise à jours ou pire complément indisponible. Avec un bugtracker efficace c'est un jeu d'enfant de rentrer des tâches, des bugs, de voir l'état d'avancement de ses collègues. Les bugs trackers moderne propose aussi de nombreuses autres fonctionnalités comme des forums, des diagrammes de gantt, etc...
+
+La majorité des bugs tracker peuvent/dovient être installé sur un de ses serveurs dans ce genre de solutions on trouve Redmine (gratuit) ou Jira (payant pour les projet non open-source) qui sont de très bon bugs trackers pour les gros projets . Mais récemment un nouveau type de bugs trackers est apparu: les bugs tracker sur le cloud, ils sont souvent fait pour être utilisé avec les méthodes agile et sont surtout là pour les projets de petites envergures (équipe restreinte, taille du projet limité). Ces solutions sous souvent gratuite de base et propose un plan payant pour les utilisateurs professionnels. Dans cette catégorie on trouve des site comme Trello ou Assana.
