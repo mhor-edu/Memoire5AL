@@ -1,3 +1,4 @@
+
 ## Logiciel de suivi de problemes
 
 Aussi communément appelé Bugtrackers se sont tout les outils qui servent à suivre l'évolution du projet. Dedans sont consigné les évolutions et les bugs de l'application. Ce qui est très utile pour gardé un historique de tout ce qui à été réalisé jusqu'alors. C'est aussi un outils indispensable pour distribué les tâches.
