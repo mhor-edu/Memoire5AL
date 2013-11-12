@@ -3,15 +3,13 @@
 
 ## Principe
 
-
+	
 
 ## Les motivations des entreprises
 
 La question d'utilisée l'intégration continue se pose avant que le projet commence de la même façon que les entreprises, donc pourquoi de nos jours les entreprises optent pour l'intégration continue ? La question est simple mais reste complexe dans le cas où certaine entreprise reste perplexe à cette pratique car ils ne l'ont généralement jamais testé.
 
-Marketing
-
-* Demande de démonstrations non planifiées	
+D'un point de vue du Marketing, l'utilisation de l'intégration continue permet d'avoir des demandes de démonstrations non planifiées. Le projet étant constament compilé et envoyer sur le serveur de dév, cela permet au client de visualiser le rendu du projet a chaque build.
 
 Budgets
 
@@ -46,9 +44,11 @@ Nécessité d’améliorer :
 
 Principes « agiles »
 
-* Fabriquer souvent•Tester souvent (tests unitaires)
+* Fabriquer souvent
+* Tester souvent (tests unitaires)
 * Tester les performances souvent
 * Intégrer souvent dans le SI
 
 ## Qu'est-ce que c'est et pourquoi l'utiliser
+
 

@@ -1,5 +1,6 @@
-# Ça va bientôt arriver!
 
-## Intégration continue dans le cloud
+# Ça va bientôt arriver dans le cloud !
+
+## Intégration continue
 
 ## La livraison continue

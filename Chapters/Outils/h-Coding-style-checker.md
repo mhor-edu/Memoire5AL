@@ -1,3 +1,4 @@
+
 ## Coding style checker
 
 Cet outil fait partie des outils importants pour facilité la relecture et la maintenabilité du code. En effet Il permet de tester si les normes de codage fixé sont bien respecté par les programmeurs. Ces règles doivent être respecté car si elle ne sont pas suivit à la lettre on se retrouve en général avec un code non uniforme ce qui ne simplifie pas sa lecture.

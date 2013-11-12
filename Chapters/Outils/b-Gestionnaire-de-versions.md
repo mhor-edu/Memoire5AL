@@ -1,3 +1,4 @@
+
 ## Gestionnaire de versions
 
 Un gestionnaire de versions sert à stocker, versionner et partager son code. On utilise surtout des gestionnaires de versions quand le besoin de partager le code source entre les différents membres d'une équipe se fait ressentir. En effet le plus souvent stocker son code sur un gestionnaire de source alors que l'on est le seul utilisateur à peu d'intérêt, à part de celui de ne jamais perdre ses sources. Les plus gros avantages se font ressentir sur les projets où il y a une équipe en effet voici une liste des gros avantages d'avoir un gestionnaire de sources quand on est en équipe :
