@@ -1,15 +1,12 @@
-
 # L'intégration continue
 
 ## Principe
 
-	
-
 ## Les motivations des entreprises
 
-La question d'utilisée l'intégration continue se pose avant que le projet commence de la même façon que les entreprises, donc pourquoi de nos jours les entreprises optent pour l'intégration continue ? La question est simple mais reste complexe dans le cas où certaine entreprise reste perplexe à cette pratique car ils ne l'ont généralement jamais testé.
+Il faut en général determiner avant de commencer si le projet utilisera l'intégration continue ou non, ce choix induira des conséquences (positives ou négatives). Donc pourquoi de nos jours les entreprises optent de plus en plus pour l'intégration continue ? La question est simple mais reste complexe dans le cas où certaine entreprise reste perplexe à cette pratique car ils ne l'ont généralement jamais testé.
 
-D'un point de vue du Marketing, l'utilisation de l'intégration continue permet d'avoir des demandes de démonstrations non planifiées. Le projet étant constament compilé et envoyer sur le serveur de dév, cela permet au client de visualiser le rendu du projet a chaque build.
+D'un point de vue du Marketing, l'utilisation de l'intégration continue permet d'avoir des demandes de démonstrations non planifiées. Le projet étant constamment compilé et envoyer sur le serveur de dév, cela permet au client de visualiser le rendu du projet a chaque build.
 
 Budgets
 
