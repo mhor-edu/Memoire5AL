@@ -1,3 +1,4 @@
+
 ##Conclusion
 
 Dans cette conclusion je souhaiterais donner un ordre d'importance à tous les outils, car en effet, ils n'ont pas tous le même intérêt ni la même importance. Je vais donc cité ici les outils vraiment indispensables pour avoir une bonne base pour son intégration continue. 
