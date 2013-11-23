@@ -13,7 +13,7 @@ Mémoire de recherche à propos de "Les enjeux de l’intégration continue".
     * [Les tests unitaires](./Chapters/Outils/a-Tests.md)
     * [Les tests d'intégrations](./Chapters/Outils/a-Tests.md)
   * [Gestionnaire de versions](./Chapters/Outils/b-Gestionnaire-de-versions.md)
-  * [Detecteur de copier coller](./Chapters/Outils/c-Detecteur-de-copier-coller.md)
+  * [Detecteur de copier/coller](./Chapters/Outils/c-Detecteur-de-copier-coller.md)
   * [Revue de code](./Chapters/Outils/d-Revue-de-code.md)
   * [Analyseur de code](./Chapters/Outils/e-Analyseur-de-code.md)
   * [Logiciel de suivi se problemes](./Chapters/Outils/f-Logiciel-de-suivi-se-problemes.md)
