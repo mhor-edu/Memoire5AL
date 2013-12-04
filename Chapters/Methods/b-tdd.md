@@ -1,2 +1,1 @@
-
-## Le developpemnt piloté par les tests (TDD)
+## Le développement piloté par les tests (TDD)
