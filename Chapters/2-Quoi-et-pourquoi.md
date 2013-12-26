@@ -8,6 +8,8 @@ Il faut en général déterminer avant de commencer si le projet utiliserait l'i
 
 D'un point de vue du marketing, l'utilisation de l'intégration continue permet d'avoir des demandes de démonstrations non planifiées. Le projet étant constamment compilé et envoyé sur le serveur de dev, cela permet au client de visualiser le rendu du projet à chacun buis.
 
+<!-- Réecrire le paragraphe suivant -->
+
 Budgets
 
 * Démontrer rapidement l’avancement d’un projet
@@ -27,6 +29,8 @@ Besoins : les besoins varient continuellement en fonction
 Besoin d’intégrer les évolutions d’un projet en continu
 
 ## Les motivation au niveau projet
+
+<!-- Réecrire ce paragraphe -->
 
 Nécessité d’améliorer :
 
