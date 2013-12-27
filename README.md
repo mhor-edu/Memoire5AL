@@ -43,4 +43,4 @@ Executer la requête suivante dans le terminal :
 
 ### Rendu Final
 
-La derniere version du PDF est accessible à l'adresse suivante : [https://github.com/mhor/Memoire5AL/raw/master/memoire.pdf](https://github.com/mhor/Memoire5AL/raw/master/memoire.pdf)
+La dernière version du PDF est accessible à l'adresse suivante : [https://github.com/mhor/Memoire5AL/raw/master/memoire.pdf](https://github.com/mhor/Memoire5AL/raw/master/memoire.pdf)
