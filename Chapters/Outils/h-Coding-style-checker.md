@@ -12,7 +12,7 @@ Voici quelques règles assez communes :
 - La façon écrire du code. Par exemple doit on sauter une ligne après la fin d'une méthode, doit on mettre un espace entre une le if et la parenthèse.
 
 Il existe des règles de codage que l'on considère comme des références dans chaque langages qui sont en général décidé avec des membres important de la communauté.
-Pour illustrer prenons la norme PSR-2 de PHP[^php_codeconventions]. Il existe aussi les conventions pour le langage java[^java_codeconventions].
+Pour illustrer prenons la norme PSR-2 de PHP[^php_codeconventions]. Il existe aussi les conventions pour le langage Java[^java_codeconventions].
 
 [^java_codeconventions]: http://www.oracle.com/technetwork/java/javase/documentation/codeconventions-139411.html
 [^php_codeconventions]: https://github.com/php-fig/fig-standards/blob/master/accepted/fr/PSR-2-coding-style-guide.md
@@ -21,6 +21,6 @@ Maintenant pour en revenir à l'outil qui gère ces conventions, il a tout sont 
 
 Quelques exemple d'outils, les outils en général sont nommé CheckStyle dans chaque langage:
 
-Checkstyle pour Java:[https://github.com/checkstyle/checkstyle](https://github.com/checkstyle/checkstyle)
+Checkstyle pour Java : https://github.com/checkstyle/checkstyle
 
-PHPCheckStyle pour PHP: [https://code.google.com/p/phpcheckstyle/](https://code.google.com/p/phpcheckstyle/)
+PHPCheckStyle pour PHP: https://code.google.com/p/phpcheckstyle/

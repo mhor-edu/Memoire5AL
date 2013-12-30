@@ -1,3 +1,4 @@
+
 ## Le développement piloté par les tests (TDD)
 
 Quand on est en phase de développement, on n'a pas toujours le temps de créer les tests adéquats pour son bon fonctionnement et on oublie souvent de les faire faute de temps. Sur certain projet on prend des gens qui ne coûtent pas cher et qui ne sont pas développeurs afin de tester le cas fonctionnel des nouvelles fonctionnalités, dans certains projets c'est le chef de projet ou le scrum master qui teste la fonctionnalité rapidement. Mais ceci est une mauvaise pratique car d'ici quelque semaine voir quelque mois, quand une fonctionnalité importante ne fonctionne plus, on se demandera depuis combien de temps elle est comme cela et surtout comment !

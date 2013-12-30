@@ -6,5 +6,5 @@ L'outil lui va aider les équipes à détecter les morceaux de code recopie ce q
 
 Exemple de détecteur de copier/coller:
 
-Mess Detector [http://fr.wikipedia.org/wiki/PMD_(logiciel)](http://fr.wikipedia.org/wiki/PMD_(logiciel))
+Mess Detector : http://fr.wikipedia.org/wiki/PMD_(logiciel)
 
