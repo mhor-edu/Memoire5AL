@@ -23,9 +23,7 @@ Voici les méthodes agiles les plus connues et utilisées
 
 ### SCRUM
 
-Publiée en 2001 par Ken Schwaber et Mike Beedle, la méthode SCRUM[^scrum] n'est pas à priori une méthode mais plutôt une cadre méthodologique que les entreprises doivent utiliser afin de surmonter les problèmes et proposer un cadre de gestion de projets Agiles : un rythme itératif (sprint), des réunions précises (daily meeting), des artefacts (product backlog, sprint backlog, graphique d’avancement), des règles du jeu et bien plus encore.
-
-[^scrum]: Guide du SCRUM par Ken Schwaber et Jeff Sutherland : https://www.scrum.org/Portals/0/Documents/Scrum%20Guides/Scrum%20Guide%20-%20FR.pdf#zoom=100
+Publiée en 2001 par Ken Schwaber et Mike Beedle, la méthode SCRUM n'est pas à priori une méthode mais plutôt une cadre méthodologique que les entreprises doivent utiliser afin de surmonter les problèmes et proposer un cadre de gestion de projets Agiles : un rythme itératif (sprint), des réunions précises (daily meeting), des artefacts (product backlog, sprint backlog, graphique d’avancement), des règles du jeu et bien plus encore.
 
 La méthode SCRUM possède un lexique particuliers, par exemple : 
 
