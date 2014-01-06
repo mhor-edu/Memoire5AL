@@ -28,9 +28,16 @@ Publiée en 2001 par Ken Schwaber et Mike Beedle, la méthode SCRUM n'est pas à
 La méthode SCRUM possède un lexique particuliers, par exemple : 
 
 * Les Rôles
-  * Product Owner : Généralement un expert du domaine métier du projet.
-  * Equipe de Développement : Ce sont les développeurs, architecte logiciel, graphiste, ...
-  * Scrum Master : C'est le coach du Product Owner et de l'equipe de Développement
+	* Product Owner : Généralement un expert du domaine métier du projet.
+	* Equipe de Développement : Ce sont les développeurs, architecte logiciel, graphiste, analyste fonctionnel, ...
+	* Scrum Master : C'est le coach du Product Owner et de l'equipe de Développement
+* Les artefacts
+	* Planning poker : Une méthode qui permet de produire des estimation sur les tâches a éffectuer
+	* Product Backlog : Liste des fonctionnalités à developper
+	* Sprint Backlog : 
+	* Daily Scrum :
+	* Sprint :
+	* Burndown Chart :
 
 SCRUM consistes à diviser les tâches en Sprint, chaque sprint dure généralement 2 semaines cependant elle peuvent être entre quelques heures jusqu’à un mois.
 
