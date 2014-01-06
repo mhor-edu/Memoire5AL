@@ -1,4 +1,3 @@
-
 ## Méthode agiles
 
 Dans cette partie nous allons dans un premier temps expliquer ce qu'est une méthode agile ensuite nous verrons les méthodes agiles les plus utilisées.
@@ -16,11 +15,17 @@ C'est donc en se basant sur ce postulat que les méthodes agiles ont été cré�
 - Moins de documentation : Écrire du code plus clair plus lisible mais moins bien documenté car écrire de la documentation n'est en général jamais lu (ou très peu).
 - Flexibilité : le client doit être très impliqué dans le projet il se doit de faire des retours (positifs et/ou négatifs). En contreparties il peut faire évoluer ses besoins (ajout de fonctionnalité, etc.. en cours de développement.
 
-Maintenant voici quelques une des méthodes agiles les plus connues et utilisées 
+Voici les méthodes agiles les plus connues et utilisées 
+
+### Kanban
+
+
 
 ### SCRUM
 
-
+Publiée en 2001 par Ken Schwaber et Mike Beedle, la méthode SCRUM consiste à diviser les tâches en Sprint, chaque sprint dure généralement 2 semaines cependant elle peuvent être entre quelque heures jusqu’à un mois.
+Dans un sprint, les développeurs 
 
 ### Extreme Programming (XP)
 
+Publiée en 1999 par Kent Beck
