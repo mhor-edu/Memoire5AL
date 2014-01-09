@@ -1,4 +1,3 @@
-
 # Ça va bientôt arriver dans le cloud !
 
 Vous n'avez pas pu y couper depuis quelques années déjà la mode et au cloud, tout se trouve sur Internet (messagerie, album photo, documents). Pourquoi cette mode, la réponse est simple, c'est pratique et souvent moins onéreux. On avait déjà remarquer une démocratisation du développement sur le cloud avec GitHub[^github] le fameux site qui utilise le gestionnaire de source décentralisé GIT dont nous avons parlé dans l'une des parties précédentes.
@@ -12,4 +11,8 @@ Maintenant c'est au domaine de l'intégration continue de s'y mettre. D'ailleurs
 
 
 ## La livraison continue
+
+La livraison continue ("Continuous Delivery”) est une pratique qui propose de développer une application afin qu'elle puisse être livrer dans l'environnement de production d'un client.
+
+En réduisant le délais entre la demande du client et la mise à disposition de la nouvelle fonctionnalité ou d'un correctif d'un bug, la satisfaction du client augmente. Pour adopter 
 
