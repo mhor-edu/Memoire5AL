@@ -9,3 +9,7 @@ Lorsque l'on sait que le coût de la correction d'une erreur augmente considéra
 Source:
 
 - [http://www.journaldunet.com/developpeur/expert/49745/les-tests-des-gens-d-en-haut-et-des-gens-d-en-bas.shtml](http://www.journaldunet.com/developpeur/expert/49745/les-tests-des-gens-d-en-haut-et-des-gens-d-en-bas.shtml)
+
+![](img/code-quality.png)
+![](img/code-quality2.png)
+![](img/mess.png)
