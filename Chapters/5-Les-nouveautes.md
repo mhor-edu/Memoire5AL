@@ -42,6 +42,11 @@ Depuis quelque temps, nous avons la possibilité d'installer les outils en local
 
 [^integrationContinueLocal]: Git Hooks : http://git-scm.com/book/ch7-3.html
 
-Les outils d'intégration continue en local se multiplie ainsi on peut nommée comme outils Emma[^emma] pour une gestion du coverage du code pour des application java
+Les outils d'intégration continue en local se multiplie ainsi on peut nommée comme outils Emma[^emma] pour une gestion du coverage du code pour des applications java et son equivalent pour des applications PHP, sismo[^sismo]
 
+[^sismo]: http://sismo.sensiolabs.org/
 [^emma]: http://mojo.codehaus.org/emma-maven-plugin/index.html
+
+
+![](img/emma_som.png)
+![](img/emma_file.png)
