@@ -38,5 +38,10 @@ L'intégration continue ne correspond pas a une seule pratique mais a un ensembl
 
 ## L'Intégration continue en local
 
-Depuis quelque temps, nous avons 
+Depuis quelque temps, nous avons la possibilité d'installer les outils en local concernant l'intégration continue. Cette pratique en local permet de voir l'avancement ainsi que les différents test de l'application (test d'intégration, test unitaire, ...) avant de commiter ainsi le developpeur pourra voir si son code fonctionne correctement, que les bonnes pratiques soit bien pratiquer et que son code soit completement tester grace a un outils de coverage. Une application couplé avec un dépot Git, offre la possibilité de crée des Git Hooks[^integrationContinueLocal] 
+
+[^integrationContinueLocal]: Git Hooks : http://git-scm.com/book/ch7-3.html
+
+
+
 
