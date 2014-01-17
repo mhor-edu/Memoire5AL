@@ -1,7 +1,6 @@
-
 # Conclusion
 
-Aujourd'hui l'integration continu est un grand atout pour un projet 
+Aujourd'hui l'intégration continue est un grand atout pour un projet 
 
 
 
