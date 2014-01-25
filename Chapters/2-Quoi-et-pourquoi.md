@@ -2,63 +2,32 @@
 
 ## Principe
 
-Pour expliquer ce qu'est l'intégration continue il faut s'attarder sur les causes de sa création. Avant qu'on invente le concept d'intégration continue les projets se déroulait en trois phases, la première consistait à s'entendre avec le client sur un certain nombre de fonctionnalité qu'il voulait implémenter dans son programme, puis dans la deuxième phase les développeurs réalisait une solution, on notera qu'en général que cette étape subis souvent des retards ou donne lieu à des programmes fortement buggués. Bien évidament cette phases se passe sans aucunes communication avec le client. Puis arrive la dernière phases ce qu'on appel l'intégration, qui consiste à déployer et tester la solution qui a été développé. Et là bien souvent ça bloque, vu que l'équipe de développement n'a eu aucun contact avec le client, la solution peut ne plus correspondre à son besoin ou ne pas être à son gout, dans ce cas le client sera mécontent. Il se peut que l'application soit inutilisable car pleinne de bugs, car l'application n'a pas été correctement testé avant en conditions rééle (avec toutes les briques applicatives, dans un environnement similaire). Et bien souvent le code est d'une qualité extrèmement médiocre et donc immaintenable et modifiable... Donc en général ce genre de projet fini à la poubelle bien rapidement.
+Pour expliquer ce qu'est l'intégration continue il faut s'attarder sur les causes de sa création. Avant qu'on invente le concept d'intégration continue, les projets se déroulait en trois phases, la première consistait à s'entendre avec le client sur un certain nombre de fonctionnalité qu'il voulait implémenter dans son application, puis dans la deuxième phase les développeurs réalisait une solution, on notera qu'en général que cette étape subis souvent des retards ou donne lieu à des applications fortement buggués. Bien évidament cette phases se passe sans aucunes communication avec le client. Puis arrive la dernière phases ce qu'on appel l'intégration, qui consiste à déployer et tester la solution qui a été développé. Et là bien souvent ça bloque, vu que l'équipe de développement n'a eu aucun contact avec le client, la solution peut ne plus correspondre à son besoin ou ne pas être à son gout, dans ce cas le client sera mécontent. Il se peut que l'application soit inutilisable car pleinne de bugs, car l'application n'a pas été correctement testé avant en conditions rééle (avec toutes les briques applicatives, dans un environnement similaire). Et bien souvent le code est d'une qualité extrèmement médiocre et donc immaintenable et modifiable... Donc en général ce genre de projet fini à la poubelle bien rapidement.
 
-C'est pour toutes ces raisons que l'ont à créé l'intégration continue, si on devait résumer le pourquoi du comment en une phrase ont pourrait dire:
-**Vous n'aimez pas les phases d'intégration? Alors intégré plus souvent!**
+C'est pour toutes ces raisons que l'ont à créé l'intégration continue, si on devait résumer le pourquoi du comment en une phrase ont pourrait dire:  
+*Vous n'aimez pas les phases d'intégration? Alors intégré plus souvent!*
 
 Cette phrase peut sembler contradictoire mais elle est pleine de sens, en effet en intégrant plus souvent (une fois par semaine par exemple) il est plus facile de corriger le tir, qu'au dernier moment, quelques semaines avant la livraison finale.
 
 
 ## Les motivations des entreprises
 
-Il faut en général déterminer avant de commencer si le projet utilisera l'intégration continue ou non, ce choix induirait des conséquences (positives ou négatives). Donc pourquoi de nos jours les entreprises optent de plus en plus pour l'intégration continue ? La question est simple mais reste complexe dans le cas où certaine entreprise resterait perplexe à cette pratique car ils ne l'ont généralement jamais testé.
+Il faut en général déterminer avant de commencer si le projet utilisera l'intégration continue ou non, ce choix induirait des conséquences (positives ou négatives). Donc pourquoi de nos jours les entreprises optent de plus en plus pour l'intégration continue ?  
+Dans le cas où certaine entreprise resterait perplexe à cette pratique car ils ne l'ont généralement jamais testé et pour cause, les entreprises pense à la durée de l'installation des outils de l'intégration continue et plus particulièrement aux formations de ses développeurs ce qui reste un coût mais généralement les entreprises utilisent seulement la méthode SCRUM afin d'accèlerer leurs developpement avec plusieurs phases de déploiement par semaine. Mais sachant que l'informatique avance à grands pas chaque jour, les développeurs et le chef de projet prennent conscience des avantages de l'intégration continue et commence à l'intégrer petit à petit sur leur projet et de conclure sur l'utilisation ponctuelle de cette pratique sur chacun de leurs futurs projets.
 
-D'un point de vue du marketing, l'utilisation de l'intégration continue permet d'avoir des demandes de démonstrations non planifiées. Le projet étant constamment compilé et envoyé sur le serveur de dev, cela permet au client de visualiser le rendu du projet à chacun build.
+Principalement les points qu'ils favorisent la décision d'utiliser l'affiliation continue au sein d'une entreprise sont principalement les suivants :
 
-<!-- Réecrire le paragraphe suivant -->
-
-Budgets
-
-* Démontrer rapidement l’avancement d’un projet
-  * Projets gérés par tranches, par lots conditionnels : focus sur le fonctionnel important !
-
-Ressources, équipes
-
-* Coordination d’équipes distribuées : le reporting projet ne suffit pas !
-  * Il faut partager les mêmes éléments d’évaluation de l’état d’avancement d’un projet
-* Des changements dans l’organisation : fusion-acquisition, restructuration, …
-
-Besoins : les besoins varient continuellement en fonction
-
-* Des produits de concurrents éventuels
-* Des changements légaux, réglementaires (contraintes d’importation, deconfidentialité, etc).
-
-Besoin d’intégrer les évolutions d’un projet en continu
+* L'utilisation de l'intégration continue permet d'avoir des demandes de démonstrations non planifiées. Le projet étant constamment compilé et envoyé sur le serveur de dev, cela permet au client de visualiser le rendu du projet à chacun build. Le projets est donc gérés par tranches et par lots conditionnels.
+* Dans une entreprise des besoins varient continuellement en fonction des produits des concurrents éventuels et des changements légaux, réglementaires (contraintes d'importation, de confidentialité, etc.)
+* Besoin d’intégrer rapidement les évolutions d’un projet en continu
 
 ## Les motivation au niveau projet
 
-L'utilisation de cette méthode permet de réduire la durée, l'effort et la douleur provoquée par chaque intégration, de même, quand on réduit la durée entre chacune de ces intégrations, moins elles sont difficiles a effectuer.
+L'utilisation de cette méthode permet de réduire la durée, l'effort et la douleur provoquée par chaque intégration, de même, quand on réduit la durée entre chacune de ces intégrations, moins elles sont difficiles a effectuer. À propos des tests unitaires, l'intégration continue permet d'augmenter la vélocité des tests d'intégration et permet de détecter les problèmes et les défauts et donc de réduire de réduire les risques d'intégration.
 
-À propos des tests unitaires, l'intégration continue permet d'augmenter la vélocité des tests d'intégration et permet de détecter les problèmes et les défauts et donc de réduire de réduire les risques d'intégration.
+L'intégration permet de résoudre dès le début du projet les problèmes liés à l'intégration sur un serveur au lieu d'être confronté à ses erreurs à la fin du projet ainsi cela améliore la qualité des livrables, avec des outils d'analyse de code qui permet de réduire sa complexité (meilleure maintenabilité) cette pratique est en adéquation avec les bests pratice de l'intégration continue. En utilisant un système d'intégration continue, l'équipe de développeurs dois forcément utilisé un gestionnaire de sources comme Git ou svn cela permet d'avoir une meilleure traçabilité des changements et des déploiements. Ainsi ans se focalisant sur le métier et non pas sur la technique, l'équipe gagne en productivité.
 
-L'intégration permet de résoudre dès le début du projet les problèmes liés à l'intégration sur un serveur au lieu d'être confronté à ses erreurs à la fin du projet.
-
-<!-- Réecrire ce paragraphe -->
-
-
-Nécessité d’améliorer :
-
-* La qualité des livrables
-  * Réduire la complexité (meilleure maintenabilité)
-  * Adéquation
-* La traçabilité
-  * des changements
-  * des déploiements
-* La productivité
-  * Se focaliser sur le métier, pas sur la technique
-
-Principes « agiles »
+En utilisant cette pratique on utilise principalement les Principes « agiles » suivants :
 
 * Fabriquer souvent
 * Tester souvent (tests unitaires)
