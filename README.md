@@ -1,4 +1,4 @@
-# Memoire5AL
+# Memoire5AL [![Stories in Ready](https://badge.waffle.io/mhor/memoire5al.png?label=ready)](https://waffle.io/mhor/memoire5al)
 
 ## Sujet
 
