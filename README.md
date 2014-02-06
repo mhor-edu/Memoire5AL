@@ -25,7 +25,7 @@ Mémoire de recherche à propos de "Les enjeux de l’intégration continue".
   * [Les méthodes agiles](./Chapters/Methods/a-methode-agile.md)
   * [Le developpemnt piloté par les tests(TDD)](./Chapters/Methods/b-tdd.md)
   * [Behavior Driven Development (BDD)](./Chapters/Methods/c-bdd.md)
-  * [Conception pilotée par le domaine](./Chapters/Methods/d-ddd.md)
+  * [Conception pilotée par le domaine (DDD)](./Chapters/Methods/d-ddd.md)
 * [Ça va bientôt arriver!](./Chapters/4-Les-nouveautes.md)
 * [Conclusion](./Chapters/5-Conclusion.md)
 
