@@ -12,3 +12,7 @@ Trello : www.trello.com
 
 Asana : www.asana.com
 
+## Analyseur de code
+
+http://www.journaldunet.com/developpeur/expert/49745/les-tests-des-gens-d-en-haut-et-des-gens-d-en-bas.shtml
+
