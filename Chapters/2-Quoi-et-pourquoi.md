@@ -9,6 +9,19 @@ C'est pour toutes ces raisons que l'ont à créé l'intégration continue, si on
 
 Cette phrase peut sembler contradictoire mais elle est pleine de sens, en effet en intégrant plus souvent (une fois par semaine par exemple) il est plus facile de corriger le tir, qu'au dernier moment, quelques semaines avant la livraison finale.
 
+## Qu'est-ce que c'est et pourquoi l'utiliser
+
+> « L'intégration continue est un ensemble de pratiques utilisées en génie logiciel consistant à vérifier à chaque modification de code source que le résultat des modifications ne produit pas de régression dans l'application développée. Bien que le concept existât auparavant[réf. nécessaire], l'intégration continue se réfère généralement à la pratique de l'extreme programming. » *(Source : Wikipedia)*
+
+Quand on parle d'intégration il ne s'agit en aucuns cas d'un outil magique comme bien souvent on peut en entendre parler en informatique, mais d'un concept. La mise en oeuvre de ce concept se fait par l'ajout d'un certains nombre d'outils, que nous verrons plus tard dans ce document, chacuns de ces outils à pour but de d'améliorer la qualité global du code qui est produit. Il existe plusieurs facteurs qui influe sur la qualité du code:
+
+* Maintenabilité
+* Testabilité
+* Rapidité
+
+Et bien, sur chacuns des outils qui sont utilisés en intégration continue influe sur un de ces facteurs. Le but étant bien sur que la qualité du code soit la meilleur possible afin que le client soit content et n'est pas de mauvaise surprise à la fin, car un client heureux est un client qui ferra surement appel à vous dans le futur.
+
+
 
 ## Les motivations des entreprises
 
@@ -17,15 +30,15 @@ Dans le cas où certaine entreprise resterait perplexe à cette pratique car ils
 
 Principalement les points qu'ils favorisent la décision d'utiliser l'affiliation continue au sein d'une entreprise sont principalement les suivants :
 
-* L'utilisation de l'intégration continue permet d'avoir des demandes de démonstrations non planifiées. Le projet étant constamment compilé et envoyé sur le serveur de dev, cela permet au client de visualiser le rendu du projet à chacun build. Le projets est donc gérés par tranches et par lots conditionnels.
+* L'utilisation de l'intégration continue permet d'avoir des demandes de démonstrations non planifiées. Le projet étant constamment compilé et envoyé sur le serveur de développement, cela permet au client de visualiser le rendu du projet à chacun des builds. Le projets est donc gérés par tranches et par lots conditionnels.
 * Dans une entreprise des besoins varient continuellement en fonction des produits des concurrents éventuels et des changements légaux, réglementaires (contraintes d'importation, de confidentialité, etc.)
 * Besoin d’intégrer rapidement les évolutions d’un projet en continu
 
 ## Les motivation au niveau projet
 
-L'utilisation de cette méthode permet de réduire la durée, l'effort et la douleur provoquée par chaque intégration, de même, quand on réduit la durée entre chacune de ces intégrations, moins elles sont difficiles a effectuer. À propos des tests unitaires, l'intégration continue permet d'augmenter la vélocité des tests d'intégration et permet de détecter les problèmes et les défauts et donc de réduire de réduire les risques d'intégration.
+L'utilisation de cette méthode permet de réduire la durée, l'effort et la douleur provoquée par chaque intégration, de même, quand on réduit la durée entre chacune de ces intégrations, moins elles sont difficiles a effectuer. À propos des tests unitaires, l'intégration continue permet d'augmenter la vélocité des tests d'intégration et permet de détecter les problèmes et les défauts et donc de réduire les risques d'intégration.
 
-L'intégration permet de résoudre dès le début du projet les problèmes liés à l'intégration sur un serveur au lieu d'être confronté à ses erreurs à la fin du projet ainsi cela améliore la qualité des livrables, avec des outils d'analyse de code qui permet de réduire sa complexité (meilleure maintenabilité) cette pratique est en adéquation avec les bests pratice de l'intégration continue. En utilisant un système d'intégration continue, l'équipe de développeurs dois forcément utilisé un gestionnaire de sources comme Git ou svn cela permet d'avoir une meilleure traçabilité des changements et des déploiements. Ainsi ans se focalisant sur le métier et non pas sur la technique, l'équipe gagne en productivité.
+L'intégration permet de résoudre dès le début du projet les problèmes liés au déploiement sur un serveur au lieu d'être confronté à ses erreurs à la fin du projet ainsi cela améliore la qualité des livrables, avec des outils d'analyse de code qui permet de réduire sa complexité (meilleure maintenabilité) cette pratique est en adéquation avec les bests pratice de l'intégration continue. En utilisant un système d'intégration continue, l'équipe de développeurs dois forcément utilisé un gestionnaire de sources comme Git ou SVN qui permet d'avoir une meilleure traçabilité des changements et des déploiements. Ainsi en se focalisant sur le métier et non pas sur la technique, l'équipe gagne en productivité.
 
 En utilisant cette pratique on utilise principalement les Principes « agiles » suivants :
 
@@ -33,13 +46,3 @@ En utilisant cette pratique on utilise principalement les Principes « agiles »
 * Tester souvent (tests unitaires)
 * Tester les performances souvent
 * Intégrer souvent dans le SI
-
-## Qu'est-ce que c'est et pourquoi l'utiliser
-
-Quand on parle d'intégration il ne s'agit en aucuns cas d'un outil magique comme bien souvent en informatique, mais d'un concept. La mise en oeuvre de ce concept se fait par l'ajout d'un certains nombre d'outils, que nous verrons plus tard dans ce document, chacuns de ces outils à pour but de d'améliorer la qualité global du code qui est produit. Il existe plusieurs facteurs qui influe sur la qualité du code:
-
-- Maintenabilité
-- Testabilité
-- Rapidité
-
-Et bien sur chacuns des outils qui sont utilisés en intégration continue influe sur un de ces facteurs. Le but étant bien sur que la qualité du code soit la meilleur possible afin que le client soit content et n'est pas de mauvaise surprise à la fin, car un client heureux est un client qui ferra surement appel à vous dans le futur.

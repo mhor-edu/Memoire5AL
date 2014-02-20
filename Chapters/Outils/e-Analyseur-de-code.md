@@ -7,5 +7,7 @@ De nombreux outils permettent de contrôler quelques aspects de cette qualité d
 Lorsque l'on sait que le coût de la correction d'une erreur augmente considérablement avec le temps, un outil de surveillance permet la détection précoce de ces éventuels problèmes et l'on comprend très vite l'importance de la détection rapide des erreurs ...
 
 ![](img/code-quality.png)
+
 ![](img/code-quality2.png)
+
 ![](img/mess.png)
