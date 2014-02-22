@@ -19,4 +19,7 @@ http://www.journaldunet.com/developpeur/expert/49745/les-tests-des-gens-d-en-hau
 ## Tests de GUI
 
 http://en.wikipedia.org/wiki/List_of_GUI_testing_tools
+
 http://blog.dreamcss.com/tools/gui-testing-tools/
+
+http://atatorus.developpez.com/tutoriels/java/test-application-web-avec-selenium/
