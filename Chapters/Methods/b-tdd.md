@@ -7,5 +7,3 @@ En utilisant des tests de régression, le problème serait résolu, mais il faut
 Le développeur conçoit un ensemble de tests pour la première "user Story" du cahier des charges, certes ces tests échouent mais c'est le but car on devra faire en sorte qu'il fonctionne en écrivant le minimum de code possible. Généralement un développeur aura tendance à écrire plus de code que le nécessaire cependant avec le processus de TDD, le codeur écriera le minimum de code et si les tests passent alors ce code sont considérés comme solides.
 
 Ainsi le TDD permet de concevoir du code en état de marche à n'importe quel moment du développement du projet en plus d’améliorer la qualité du code et nous assure que le besoin du client est respecté.
-
-### TDD et les Design Patterns
