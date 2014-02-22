@@ -4,16 +4,12 @@ Quoi de plus rébarbatif que de tester le bon fonctionnement de l'interface grap
 Il existe deux type de d'outils pour automatiser ces tâches. Les premiers qui prennent la main sur toute la machine qui sont pratique si l'ont veut tester des applications autres que web mais qui sont moins poussé en terme de tests et nécessite l'utilisation d'une machine dédié. Et d'autre qui ne simule que l'utilisation d'un navigateur web qui s'intègre qui peuvent même parfois être directement piloté depuis les tests fonctionnelles de l'applications comme c'est le cas pour Selenium.
 
 Voici un exemple d'outil qui prend en charge toute la machine:
-Sikuli permet via son interface d'écrire des scripts qui se lance sur la machine afin de reproduire le comportement que écrit dans le script. Dans l'image ce-dessous voici l'exemple d'un connexion à Gmail avec FireFox
-
-![](img/sikuli-sign_gmail.jpg)
+Sikuli permet via son interface d'écrire des scripts qui se lance sur la machine afin de reproduire le comportement que écrit dans le script. Dans l'image ce-dessous voici l'exemple d'un connexion à Gmail avec FireFox.<div>![](img/sikuli-sign_gmail.jpg)</div>
 
 Voici un exemple d'outil qui permet d'automatiser les tests de GUI d'interface web sur différent navigateur via des scripts.
 
 Nous avons choisi Selenium car il s'agit de l'outil le plus connu et le plus efficace qui permet celà.
-Dans l'image si dessous on voit le pettit outil qui permet de créer un petit script que l'ont lance dans les tests fonctionnels de l'application.
-
-![](img/selenium-ide.png)
+Dans l'image si dessous on voit le pettit outil qui permet de créer un petit script que l'ont lance dans les tests fonctionnels de l'application.<div>![](img/selenium-ide.png)</div>
 
 Avec l'outil ci-dessus il est possible d'écrire des classes de tests fonctionnelles qui utilise Selenium. Voici un exemple de code qui pourrait être généré:
 
@@ -53,7 +49,7 @@ public class Selenium {
     driver.findElement(By.id("headerForm:english_button")).click(); 
  
     // Et on recommence le même enchainement 
-    ...  
+    //...  
   } 
  
   @After 
