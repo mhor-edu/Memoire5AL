@@ -20,7 +20,6 @@ Mémoire de recherche à propos de "Les enjeux de l’intégration continue".
   * [Test de couverture](./Chapters/Outils/g-Test-de-couverture.md)
   * [Coding style checker](./Chapters/Outils/h-Coding-style-checker.md)
   * [Serveur d'integration continue](./Chapters/Outils/i-Serveur-d-integration-continue.md)
-  * [Test GUI](./Chapters/Outils/j-Test-GUI.md)
 * [Les méthodes qui supportent l'intégration continue](./Chapters/4-Les-methodes-qui-supportent-l-integration-continue.md)
   * [Les méthodes agiles](./Chapters/Methods/a-methode-agile.md)
   * [Le developpemnt piloté par les tests(TDD)](./Chapters/Methods/b-tdd.md)
