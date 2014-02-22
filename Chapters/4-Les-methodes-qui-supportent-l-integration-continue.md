@@ -1,4 +1,4 @@
-# Les méthodes qui supportent l'intégration continue
+# Les méthodes pour l'intégration continue
 
 En général dès que l'on veut mettre en place tous les outils permettant d'écrire du code de qualité. Les chefs de projet se rendent compte très vite lors de leur premier projet utilisant l'intégration continue que les résultats escomptés ne sont pas là. Pourquoi ?
 
