@@ -2,7 +2,7 @@
 
 ## Principe
 
-Pour expliquer ce qu'est l'intégration continue il faut s'attarder sur les causes de sa création. Avant qu'on invente le concept d'intégration continue, les projets se déroulait en trois phases, la première consistait à s'entendre avec le client sur un certain nombre de fonctionnalité qu'il voulait implémenter dans son application, puis dans la deuxième phase les développeurs réalisait une solution, on notera qu'en général que cette étape subis souvent des retards ou donne lieu à des applications fortement buggués. Bien évidament cette phases se passe sans aucunes communication avec le client. Puis arrive la dernière phases ce qu'on appel l'intégration, qui consiste à déployer et tester la solution qui a été développé. Et là bien souvent ça bloque, vu que l'équipe de développement n'a eu aucun contact avec le client, la solution peut ne plus correspondre à son besoin ou ne pas être à son gout, dans ce cas le client sera mécontent. Il se peut que l'application soit inutilisable car pleinne de bugs, car l'application n'a pas été correctement testé avant en conditions rééle (avec toutes les briques applicatives, dans un environnement similaire). Et bien souvent le code est d'une qualité extrèmement médiocre et donc immaintenable et modifiable... Donc en général ce genre de projet fini à la poubelle bien rapidement.
+Pour expliquer ce qu'est l'intégration continue il faut s'attarder sur les causes de sa création. Avant qu'on invente le concept d'intégration continue, les projets se déroulait en trois phases, la première consistait à s'entendre avec le client sur un certain nombre de fonctionnalité qu'il voulait implémenter dans son application, puis dans la deuxième phase les développeurs réalisait une solution, on notera qu'en général que cette étape subis souvent des retards ou donne lieu à des applications fortement buggués. Bien évidament cette phases se passe sans aucunes communication avec le client. Puis arrive la dernière phases ce qu'on appel l'intégration, qui consiste à déployer et tester la solution qui a été développé. Et là bien souvent ça bloque, vu que l'équipe de développement n'a eu aucun contact avec le client, la solution peut ne plus correspondre à son besoin ou ne pas être à son gout, dans ce cas le client sera mécontent. Il se peut que l'application soit inutilisable car pleinne de bugues, car l'application n'a pas été correctement testé avant en conditions rééle (avec toutes les briques applicatives, dans un environnement similaire). Et bien souvent le code est d'une qualité extrèmement médiocre et donc immaintenable et modifiable... Donc en général ce genre de projet fini à la poubelle bien rapidement.
 
 C'est pour toutes ces raisons que l'ont à créé l'intégration continue, si on devait résumer le pourquoi du comment en une phrase ont pourrait dire:  
 *Vous n'aimez pas les phases d'intégration? Alors intégré plus souvent!*
@@ -13,15 +13,32 @@ Cette phrase peut sembler contradictoire mais elle est pleine de sens, en effet 
 
 > « L'intégration continue est un ensemble de pratiques utilisées en génie logiciel consistant à vérifier à chaque modification de code source que le résultat des modifications ne produit pas de régression dans l'application développée. Bien que le concept existât auparavant[réf. nécessaire], l'intégration continue se réfère généralement à la pratique de l'extreme programming. » *(Source : Wikipedia)*
 
-Quand on parle d'intégration il ne s'agit en aucuns cas d'un outil magique comme bien souvent on peut en entendre parler en informatique, mais d'un concept. La mise en oeuvre de ce concept se fait par l'ajout d'un certains nombre d'outils, que nous verrons plus tard dans ce document, chacuns de ces outils à pour but de d'améliorer la qualité global du code qui est produit. Il existe plusieurs facteurs qui influe sur la qualité du code:
+Quand on parle d'intégration, il ne s'agit en aucun cas d'un outil magique comme bien souvent on peut en entendre parler en informatique, mais d'un concept agile. La mise en oeuvre de ce concept se fait par l'ajout d'un certain nombre d'outils, que nous verrons plus tard dans ce document, chacun de ces outils a pour but d'améliorer la qualité globale du code qui est produit. L'intégration continue fait partie des 12 méthodes d'eXtrême Programming (XP). Il existe plusieurs facteurs qui influent sur la qualité du code :
 
 * Maintenabilité
 * Testabilité
 * Rapidité
 
-Et bien, sur chacuns des outils qui sont utilisés en intégration continue influe sur un de ces facteurs. Le but étant bien sur que la qualité du code soit la meilleur possible afin que le client soit content et n'est pas de mauvaise surprise à la fin, car un client heureux est un client qui ferra surement appel à vous dans le futur.
+Sur chacun des outils qui sont utilisés en intégration continue influe sur un de ces facteurs. Le but étant bien sûr que la qualité du code soit la meilleure possible afin de faciliter les prochaines relectures du code pour implémenté de nouvelle fonctionnalité et autres correctifs de bugue afin que le client soit content et n'est pas de mauvaise surprise à la fin, car un client heureux est un client qui fera sûrement appel à vous dans le futur.
+
+<!-- Avantage -->
+L'intégration continue possède plusieurs avantages qui en résulte et c'est principalement grâce à ces avantages que l'on utilisera ce concept agile. Les avantages d'une intégration continue sont par exemple :
+
+- Réduire les coûts pour la résolution des bogues, généralement un bogue est lié à la répercussion de la modification du code existant pour une nouvelle fonctionnalité lorsque l'on n'utilise pas différents tests automatisés à chaque build. La correction de ces bugues qui en résulte a un coût sachant que les bugues en recette pour le client coute plus cher qu'en développement.
+- Meilleure réactivité en cas de bugue, si un développeur oublie de commiter un fichier, les tests échouera et permettra d'avertir le développeur de son erreur.
+- Par l'intermédiaire aux différents rapports et indicateurs générés par des outils de reporting comme Jenkins, l'équipe en charge du développement ainsi que leur chef de projet voit en temps réel l'avancement et la santé du projet, le chef d'équipe pourra mieux définir les besoins et appliquera son budget selon les différents rapports reçus par mail.
+- Les différents problèmes liés à l'intégration du logiciel sur un serveur seront détectés et réparés de façon continue, cela permet d'offrir des recettes plus rapides au client.
+
+<!-- Inconvénient -->
+Bien qu'il possède certains avantages, l'intégration continue possède aussi certains inconvénients bien qu'en soit l'intégration continue ne possède pas d'inconvénient pour le mettre en place :
+
+- Tous les bugues ne sont pas identifié si la couverture des tests et insuffisante (voir la partie Coverage)
+
+Le temps nécessaire à intégrer l'intégration continue est variable sachant que la durée de mise en place sera considérablement réduite à chaque projet. La première chose qu'une entreprise doit faire est de le mettre en place petit à petit afin d'habituer les développeurs à ce concept.
 
 
+<!-- Etape de l'integration continue -->
+<!-- Les 8 bonnes pratiques du developpeur -->
 
 ## Les motivations des entreprises
 

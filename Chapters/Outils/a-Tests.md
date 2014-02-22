@@ -88,25 +88,6 @@ public class PersonneTest extends TestCase
     assertEquals("Est ce que nom est correct", "nom2", personne.getNom());
   }
 
-  /**
-   * On utilise la method assertEquals pour tester l'égalité
-   * de deux chaines
-   */
-  public void testGetPrenom()
-  {
-    assertEquals("Est ce que prenom est correct", "prenom1", personne.getPrenom());
-  }
-  
-  /**
-   * On utilise la methode assertEquals pour tester l'égalité
-   * de deux chaines
-   */
-  public void testSetPrenom()
-  {
-    personne.setPrenom("prenom2");
-    assertEquals("Est ce que prenom est correct", "prenom2", personne.getPrenom());
-  }
-
 }
 ```
 Remarque à propos de l'exemple ci-dessus:
