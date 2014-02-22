@@ -14,9 +14,9 @@ Et bien rien de très compliqué, le client écrit sous forme de texte le foncti
 ### Les solutions existante
 Maintenant nous allons voir deux grosses solutions sur lesquels ont peut baser le Behavior Driven Development. Ici nous n'en présentont que deux mais il en existe bien d'autre.
 
-### Cucumber
+#### Cucumber
 C'est la solution la plus ancienne et la plus utilisé, elle est disponible dans quasi tout les langages de programmation, du Java en passant par PHP ou même Python et Ruby. Si vous n'êtes pas très au fait des technologies BDD qui existe dans vôtre langage de programmation c'est celui-ci qu'il faut choisir.
 
-### Behat
+#### Behat
 C'est une solution exclusivement php qui a son propre langage d'ecriture de test en PHP, ce logiciel à une très forte communauté derrière lui. Il est à consieller à tous les développeurs PHP, car il s'agit d'une solution dédier au PHP contrairemetn à Cucumber.
 
