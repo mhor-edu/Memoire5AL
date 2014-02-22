@@ -1,2 +1,7 @@
-
 ## Test GUI
+Quoi de plus rébarbatif que de tester le bon fonctionnement de l'interface graphique de son application web, en effet il est souvent long et difficile de tester si tout les boutons renvoie bien sur la bonne page et sont bien disposé. Pour remédier à ce problème certain on pensé à une solution simple pour automatisé ce type de test. Cette solution consiste à lancer un robot qui va effectuer toutes les tâches qu'un être humains aurait dû faire pour tester l'interface. Mais dès que le robot executera n'arrivera pas à reproduire l'action demandé on pourra en déduire que l'interface n'est pas correct. Le gros problème de ce genre d'outils c'est qu'il ne permette pas de controller le design mais uniquement le bon placement dans l'interface des composants.
+
+Il existe deux type de d'outils pour automatiser ces tâches. Les premiers qui prennent la main sur toute la machine qui sont pratique si l'ont veut tester des applications autres que web mais qui sont moins poussé en terme de tests et nécessite l'utilisation d'une machine dédié. Et d'autre qui ne simule que l'utilisation d'un navigateur web qui s'intègre qui peuvent même parfois être directement piloté depuis les tests fonctionnelles de l'applications comme c'est le cas pour Selenium.
+
+Voici quelques exemple d'outils qui prenne en charge toute la machine:
+![Script de connexion a gmail avec Sikuli](img/img/sikuli-sign_gmail.jpg)
