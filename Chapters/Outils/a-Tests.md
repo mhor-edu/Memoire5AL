@@ -13,7 +13,8 @@ package fr.esgi.test.junit;
 
 import junit.framework.TestCase;
 
-public class PersonneTest extends TestCase {
+public class PersonneTest extends TestCase
+{
 
   /**
    * L'objet de la classe que l'on veut tester
@@ -23,22 +24,25 @@ public class PersonneTest extends TestCase {
   /**
    * Test simple pour savoir si le constructeur ne plante pas
    */
-  public PersonneTest(String name) {
+  public PersonneTest(String name)
+  {
     super(name);
   }
 
   /**
-   * Ce declanche avant chaque methode de test
+   * Ce déclenche avant chaque methode de test
    */
-  protected void setUp() throws Exception {
+  protected void setUp() throws Exception
+  {
     super.setUp();
     personne = new Personne("nom1","prenom1");
   }
 
   /**
-   * Ce declanche après chaque fin de méthode de test
+   * Ce déclenche après chaque fin de méthode de test
    */
-  protected void tearDown() throws Exception {
+  protected void tearDown() throws Exception
+  {
     super.tearDown();
     personne = null;
   }
@@ -48,15 +52,28 @@ public class PersonneTest extends TestCase {
    * du framework de test unitaire pour tester si l'objet 
    * n'est pas null
    */
-  public void testPersonne() {
+  public void testPersonne()
+  {
     assertNotNull("L'instance est créée", personne);
   }
+
+  /**
+   * Ici on test si qu'il est impossible que le salaire 
+   * de la personne soit négatif et donc que la méthode 
+   * renvoie bien une Exception
+   */
+   @Test(expected=IllegalArgumentException.class)
+   public void testException()
+   {
+      this.personne.setSalaire(-1);
+   }
 
   /**
    * On utilise la method assertEquals pour tester l'égalité
    * de deux chaines
    */
-  public void testGetNom() {
+  public void testGetNom()
+  {
     assertEquals("Est ce que nom est correct", "nom1", personne.getNom());
   }
 
@@ -64,7 +81,8 @@ public class PersonneTest extends TestCase {
    * On utilise la method assertEquals pour tester l'égalité
    * de deux chaines
    */
-  public void testSetNom() {
+  public void testSetNom()
+  {
     personne.setNom("nom2");
     assertEquals("Est ce que nom est correct", "nom2", personne.getNom());
   }
@@ -73,15 +91,17 @@ public class PersonneTest extends TestCase {
    * On utilise la method assertEquals pour tester l'égalité
    * de deux chaines
    */
-  public void testGetPrenom() {
+  public void testGetPrenom()
+  {
     assertEquals("Est ce que prenom est correct", "prenom1", personne.getPrenom());
   }
   
   /**
-   * On utilise la method assertEquals pour tester l'égalité
+   * On utilise la methode assertEquals pour tester l'égalité
    * de deux chaines
    */
-  public void testSetPrenom() {
+  public void testSetPrenom()
+  {
     personne.setPrenom("prenom2");
     assertEquals("Est ce que prenom est correct", "prenom2", personne.getPrenom());
   }
@@ -94,6 +114,11 @@ Remarque à propos de l'exemple ci-dessus:
 - ses méthodes du framework facilite l'écriture de tests unitaire
 - ici nous avons écrit uniquement des méthodes de test pour des assesseurs, mais il est possible tester des méthodes bien plus complexes.
 
+####Les mocks tests
+Pour tester les fonctions qui renvoie des résultat incertain selon la configuration (outils non installables, pas de connexion internet), il est possible d'écrire des mocks qui simule ce que doit renvoyer la fonction.
+
+Voici un exemple concret:
+Dans notre cas nous voulont testé une fonction qui traite ce que retourne un outil en ligne de commande nous voudrions tester que si cet outil n'est pas installé qu'elle nous renvoie une erreur, et si cet outil est installé que ce que nous renvoie cette fonction est bien traitable par notre programme. Sans mock test il n'est pas possible de tester efficacement ce que nous renvoie cette fonction dans les deux cas. La façon de faire la plus simple est donc de créer un objet "mock" qui va simulé le comportement de cette fonction afin de tester que le reste du programme fonctionne. Le mock test n'est évidement pas à utiliser n'importe où, en effet il ne sert qu'à remplacer le comportement de code sur lequel il ne nous est pas possible d'agir. 
 
 ### Les tests fonctionnels
 
