@@ -8,5 +8,5 @@ Avant la création de ce genre d'outils la gestion de projets était bien plus d
 La majorité des bugs tracker peuvent/doivent être installés sur un de ses serveurs dans ce genre de solutions on trouve Redmine (gratuit) ou Jira (payant pour les projets non open-source) qui est de très bons bugs trackers pour les gros projets . Mais récemment un nouveau type de bugs trackers est apparu : les bugs tracker sur le cloud, ils sont souvent fait pour être utilisé avec les méthodes agiles et sont surtout là pour les projets de petite envergure (équipe restreinte, taille du projet limité). Ces solutions sous souvent gratuite de base et propose un plan payant pour les utilisateurs professionnels. Dans cette catégorie on trouve des sites comme Trello, Assana ou waffle.io.
 
 
-![](img/index-jira.png)
-![](img/index-project-jira.png)
+<div>![](img/index-jira.png)</div>
+<div>![](img/index-project-jira.png)</div>

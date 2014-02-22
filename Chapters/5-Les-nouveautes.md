@@ -31,10 +31,10 @@ En fin de livraison, on pourra utilisée des outils du cloud, des outils comme
 L'intégration continue ne correspond pas a une seule pratique mais a un ensemble de pratique qui permet de vérifier le bon fonctionnement du code a chaque commit du développeur ainsi cela réduit les risques par exemple de régression ainsi 
 <!-- parler de Google AppEngine et de Heroku -->
 
-![Interface de travais](img/travis.png)
-![](img/travis-pr.png)
-![](img/trello-overview.png)
-![](img/trello-task.png)
+<div>![Interface de travis](img/travis.png)</div>
+<div>![](img/travis-pr.png)</div>
+<div>![](img/trello-overview.png)</div>
+<div>![](img/trello-task.png)</div>
 
 ## L'Intégration continue en local
 
@@ -48,5 +48,5 @@ Les outils d'intégration continue en local se multiplie ainsi on peut nommée c
 [^emma]: http://mojo.codehaus.org/emma-maven-plugin/index.html
 
 
-![](img/emma_som.png)
-![](img/emma_file.png)
+<div>![](img/emma_som.png)</div>
+<div>![](img/emma_file.png)</div>

@@ -4,5 +4,5 @@ C'est le centre névralgique d'un système d'intégration continue. C'est lui qu
 
 J'ai parlé ici des logiciels les plus plus complexe comme ``Jenkins`` ou ``Bamboo``, mais il existe un courant qui est assez répandu aujourd'hui qui consiste à faire avoir un serveur d'intégration continu minimaliste sur le cloud, mais beaucoup moins paramétrable, mais bien plus simple à l'usage.
 
-![](img/jenkins-index.jpg)
-![](img/jenkins-project.png)
+<div>![](img/jenkins-index.jpg)</div>
+<div>![](img/jenkins-project.png)</div>
