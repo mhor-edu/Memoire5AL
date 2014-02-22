@@ -1,15 +1,13 @@
-## Behavior Driven Development (BDD)
 
+## Behavior Driven Development (BDD)
 
 ### C'est quoi?
 Il faut précisé dès à présent que cette méthode de developpement ce base en grande partie sur les principes de la TDD vu précédement, donc ici aussi il faudra créer des tests unitaire avant de coder, ici c'est la personne et la manière de créer ces tests qui diffère.
 Le Behavior Driven developpement est née pour répondre a une question simple: **qui connait le mieux ce qui doit être developpé?** La réponse est bien evidement le client, mais bien souvent le client n'est pas un developpeur, et il n'est pas capable d'écrire les tests unitaire que nécéssaire tester le comportement de son application.
-Lorsqu'on utilise le BDD c'est bien le client qui va créer les tests unitaires, bien évidement ce n'est pas directement lui qui va coder, mais un logiciel qui va traduire ce qu'il veut en code. Nous vous présenterons deux de ces logiciel plus tard.
+Lorsqu'on utilise le BDD c'est bien le client qui va créer les tests unitaires, bien évidement ce n'est pas directement lui qui va coder, mais un logiciel qui va traduire ce qu'il veut en code. Nous vous présenterons deux de ces logiciel plus tard. Bien évidement celà oblige le client à s'investir réelement dans son projet afin qu'il soit pleinnement satisfait, car sinon dans le cas contraire le BDD ne fonctionnera pas en effet comme c'est au client de décrire très précisement ce qu'il souhaite si cette tâche n'est pas éffectué avec un minimum de rigueur les fonctionnalités attendu pour le client pourrait être érronés.
 
 ### Comment ça marche?
-Et bien rien de très compliqué, le client écrit sous forme de texte le fonctionnalité qu'il veut sous forme d'un langage compréhensible par le logiciel, puis celui ci va générer des tests unitaires qui correspondent à ce que le client écrit
-
-**EXEMPLE**
+Et bien rien de très compliqué, le client écrit sous forme de texte les fonctionnalités qu'il attend sous forme d'un langage compréhensible par le logiciel, puis celui-ci va générer des tests unitaires qui correspondent à ce que le client écrit.
 
 ### Les solutions existante
 Maintenant nous allons voir deux grosses solutions sur lesquels ont peut baser le Behavior Driven Development. Ici nous n'en présentont que deux mais il en existe bien d'autre.
@@ -19,4 +17,7 @@ C'est la solution la plus ancienne et la plus utilisé, elle est disponible dans
 
 #### Behat
 C'est une solution exclusivement php qui a son propre langage d'ecriture de test en PHP, ce logiciel à une très forte communauté derrière lui. Il est à consieller à tous les développeurs PHP, car il s'agit d'une solution dédier au PHP contrairemetn à Cucumber.
+
+### Exemple complet
+Dans cet exemple nous allons voir à quoi ressemble le fichier de description pour Cucumber et quel classe de test il nous génère.
 
