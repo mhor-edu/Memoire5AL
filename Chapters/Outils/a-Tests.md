@@ -6,12 +6,13 @@ On ne sait pas faire de logiciel sans défaut et le coût des corrections de bug
 C'est le test le plus répandu, mais aussi le plus efficace, car en général il est assez simple à mettre en place et couvre une très grande partie des besoins de test d'une application. Le test unitaire fait partie des tests "boite blanche", ce qui signifie que le test à accès au code. Le test unitaire se présente sous la forme de classe objet contenant des méthodes visant à tester le code du projet. En général les méthodes sont écrites dans le même langage que le projet et utilise des bibliothèques dédié au test unitaire, en général on en trouve dans tous les langages elles se nomment généralement xUnit (où le `x` est la première lettre du nom du langage), par exemple JUnit pour Java, PUnit pour Python ... Dans ces méthodes pour tester du code on utilise ce que l'on appelle des ``assertions``, il s'agit en fait d'une fonction du framework de test unitaire qui va tester la valeur attendue et la valeur actuelle si les deux valeurs sont différentes le test va alors passer en erreur, et le développeur saura donc que son code ne fonctionne pas, dans certaine méthode de développement que nous allons voir plus tard il arrive qu'on écrive même le code du test unitaire avant même d'écrire le code de la fonction que l'on teste (Test Driven Development). Le but ultime doit être de tester le maximum de comportement possible grâce aux tests unitaires afin de ne pas avoir de mauvaises surprises lorsqu'il qu'il y a modification du code existant.
 
 
-Voici un exemple de classe de test unitaire en PHP:
+Voici un exemple de classe de test unitaire en Java:
 
 ```java
 package fr.esgi.test.junit;
 
 import junit.framework.TestCase;
+import fr.esgi.java.Personne;
 
 public class PersonneTest extends TestCase
 {
