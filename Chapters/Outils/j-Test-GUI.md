@@ -5,13 +5,15 @@ Il existe deux type de d'outils pour automatiser ces tâches. Les premiers qui p
 
 Voici un exemple d'outil qui prend en charge toute la machine:
 Sikuli permet via son interface d'écrire des scripts qui se lance sur la machine afin de reproduire le comportement que écrit dans le script. Dans l'image ce-dessous voici l'exemple d'un connexion à Gmail avec FireFox
-![Script de connexion a gmail avec Sikuli](img/sikuli-sign_gmail.jpg)
+
+![](img/sikuli-sign_gmail.jpg)
 
 Voici un exemple d'outil qui permet d'automatiser les tests de GUI d'interface web sur différent navigateur via des scripts.
 
 Nous avons choisi Selenium car il s'agit de l'outil le plus connu et le plus efficace qui permet celà.
 Dans l'image si dessous on voit le pettit outil qui permet de créer un petit script que l'ont lance dans les tests fonctionnels de l'application.
-![Selenium IDE](img/selenium-ide.gif)
+
+![](img/selenium-ide.png)
 
 Avec l'outil ci-dessus il est possible d'écrire des classes de tests fonctionnelles qui utilise Selenium. Voici un exemple de code qui pourrait être généré:
 
