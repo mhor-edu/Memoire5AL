@@ -27,3 +27,7 @@ http://atatorus.developpez.com/tutoriels/java/test-application-web-avec-selenium
 ### Tests d'intégration
 
 http://fr.wikipedia.org/wiki/Test_d'int%C3%A9gration
+
+### Tests fonctionnels
+
+http://blog.octo.com/demarches-de-tests-fonctionnels/
