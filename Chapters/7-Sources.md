@@ -1,6 +1,6 @@
 # Les sources
 
-## Bug Trackers
+### Bug Trackers
 
 Wikipédia : fr.wikipedia.org/wiki/Logiciel_de_suivi_de_problèmes  
 
@@ -12,14 +12,18 @@ Trello : www.trello.com
 
 Asana : www.asana.com
 
-## Analyseur de code
+### Analyseur de code
 
 http://www.journaldunet.com/developpeur/expert/49745/les-tests-des-gens-d-en-haut-et-des-gens-d-en-bas.shtml
 
-## Tests de GUI
+### Tests de GUI
 
 http://en.wikipedia.org/wiki/List_of_GUI_testing_tools
 
 http://blog.dreamcss.com/tools/gui-testing-tools/
 
 http://atatorus.developpez.com/tutoriels/java/test-application-web-avec-selenium/
+
+### Tests d'intégration
+
+http://fr.wikipedia.org/wiki/Test_d'int%C3%A9gration
