@@ -105,3 +105,5 @@ Dans notre cas nous voulont testé une fonction qui traite ce que retourne un ou
 ### Les tests fonctionnels
 
 ### Les tests d'intégrations
+
+Auparavant les tests d'intégrations devait être effectuer à la fin du développement et consistait à tester manuellement que tous les "modules" de l'application fonctionnait correctement ensemble. Ce genre de test quand on utilise l'intégration continue sont déplacé dans les tests unitaire et sont donc automatisé 
