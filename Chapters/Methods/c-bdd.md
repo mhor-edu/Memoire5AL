@@ -6,9 +6,11 @@ Il faut précisé dès à présent que cette méthode de developpement ce base e
 Le Behavior Driven developpement est née pour répondre a une question simple: **qui connait le mieux ce qui doit être developpé?** La réponse est bien evidement le client, mais bien souvent le client n'est pas un developpeur, et il n'est pas capable d'écrire les tests unitaire que nécéssaire tester le comportement de son application.
 Lorsqu'on utilise le BDD c'est bien le client qui va créer les tests unitaires, bien évidement ce n'est pas directement lui qui va coder, mais un logiciel qui va traduire ce qu'il veut en code. Nous vous présenterons deux de ces logiciel plus tard. Bien évidement celà oblige le client à s'investir réelement dans son projet afin qu'il soit pleinnement satisfait, car sinon dans le cas contraire le BDD ne fonctionnera pas en effet comme c'est au client de décrire très précisement ce qu'il souhaite si cette tâche n'est pas éffectué avec un minimum de rigueur les fonctionnalités attendu pour le client pourrait être érronés.
 
-
 ### Comment ça marche?
 Et bien rien de très compliqué, le client écrit sous forme de texte les fonctionnalités (Features) qu'il attend sous forme d'un langage compréhensible par le logiciel de BDD, puis pour chaque fonctionnalités il écrit un certains nombre de sénario visant à tester le comportement qu'il souhaite donner à cette Feature. Une fois un certain nombre de scenario écrit pour la feature le developpeur code la-dite feature puis grâce à son logiciel de BDD celui-ci va générer des tests unitaires qui correspondent à aux scenario (cette partie est invisible aux yeux du developpeur), afin de tester si le code de la feature a bien été implementé.
+
+Voici un schema qui explique celà de manière imagé:
+<div>![](img/bdd-lifecycle.png)</div>
 
 ### Les solutions existante
 Maintenant nous allons voir deux solutions sur lesquels ont peut baser le Behavior Driven Development. Ici nous n'en présentont que deux mais il en existe bien d'autre. Cette méthode de développement étant assez recente il est possible qu'il soit assez difficile de trouver beaucoup de ressources fiables pour votre langage favoris.
