@@ -28,15 +28,24 @@ En fin de livraison, on pourra utilisée des outils du cloud, des outils comme
 
 ### Intégration continue
 
-L'intégration continue ne correspond pas a une seule pratique mais a un ensemble de pratique qui permet de vérifier le bon fonctionnement du code a chaque commit du développeur ainsi cela réduit les risques par exemple de régression ainsi 
-<!-- parler de Google AppEngine et de Heroku -->
+L'intégration continue ne correspond pas à une seule pratique mais à un ensemble de pratiques et d'outils qui permet de vérifier le bon fonctionnement du code à chaque commit du développeur ainsi cela réduit les risques par exemple de régression. Ces outils que l'on devait installer sur des serveurs dédiés de l'entreprise étaient fastueux à configurer surtout pour les nouvelles entreprises qui se mettent à cette pratique, mais cette époque est révolue car depuis quelques années des services dans le cloud permettent d'éviter d'installer tous ces outils. Le principale avantage étant pour les entreprises novices dans ce domaine d'utiliser l'intégration continue et l'adopter simplement, rien n'empêche une équipe de se défaire de ces outils dans le cloud et d'utiliser des outils d'intégration ne continue sur leurs propres serveurs.  
+Dans le cloud il existe une multitude d'outils dont voici les plus connu et permettent tous une integration avec Github :
 
-Ci-dessous quelques image de Travis-Ci qui est une des valeurs sûr dans ce domaine, il peut être utilisé gratuitement pour les projets open-source
+* Google AppEngine[^google_appengine] : Hebergeur d'application Python, Java, Groovy, JRuby, Scala, Clojure, Go, et PHP
+* Heroku[^heroku] : Herberge du Ruby, Node.js, Python, and Java
+* Travis-CI[^travis-ci] : Un jenkins gratuit pour les projets open source
+
+[^google_appengine]: Google AppEngine : https://developers.google.com/appengine/
+[^heroku]: Heroku : https://www.heroku.com/
+[^travis-ci]: Travis-CI : https://travis-ci.org/
+
+Ci-dessous quelques image de Travis-CI qui est une des valeurs sûr dans ce domaine
 <div>![Interface de travis](img/travis.png)</div>
-Voici la page principal d'un projet, elle montre le dernier build du projet, on voit que cette interface est beaucoup plus dépouillé que celle de Jenkins, ici il faut oublié tout le coté statistique.
 
+Voici la page principal d'un projet, elle montre le dernier build du projet, on voit que cette interface est beaucoup plus dépouillé que celle de Jenkins, ici il faut oublié tout le coté statistique.
 <div>![](img/travis-pr.png)</div>
-Lorsqu'on utilise Git il est très pratique de tester via une pull request si le code compile toujours avant d'appliquer les modification dans le code source.
+
+Lorsqu'on utilise Git, il est très pratique de tester via une pull request si le code compile toujours avant d'appliquer les modification dans le code source.
 
 ## L'Intégration continue en local
 

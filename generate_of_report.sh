@@ -3,6 +3,7 @@
 echo "suppresion de l'ancienne version"
 
 rm memoire.pdf
+rm output.pdf
 
 echo "Generate of report"
 
