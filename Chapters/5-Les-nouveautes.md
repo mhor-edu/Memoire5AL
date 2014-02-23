@@ -3,7 +3,7 @@
 
 ## Ça va bientôt arriver dans le cloud !
 
-Vous n'avez pas pu y couper depuis quelques années déjà la mode et au cloud, tout se trouve sur Internet (messagerie, album photo, documents). Pourquoi cette mode, la réponse est simple, c'est pratique et souvent moins onéreux. On avait déjà remarquer une démocratisation du développement sur le cloud avec GitHub[^github] le fameux site qui utilise le gestionnaire de source décentralisé GIT dont nous avons parlé dans l'une des parties précédentes.
+Vous n'avez pas pu y louper depuis quelques années déjà la mode et au cloud, tout se trouve sur Internet (messagerie, album photo, documents). Pourquoi cette mode, la réponse est simple, c'est pratique et souvent moins onéreux. On avait déjà remarquer une démocratisation du développement sur le cloud avec GitHub[^github] le fameux site qui utilise le gestionnaire de source décentralisé GIT dont nous avons parlé dans l'une des parties précédentes.
 
 Maintenant c'est au domaine de l'intégration continue de s'y mettre. D'ailleurs bien souvent couplé à GitHub. Car oui, ce genre de pratique est né avec la démocratisation du développement Open-Source sur GitHub. D'ailleurs, GitHub a réussi à rendre plus simple la mise en commun et la contribution du code sources pour des projets Open-Source.
 
@@ -20,11 +20,7 @@ Ce principe repose sur deux grand fondement :
 * Automatisation des tâches, permet d'avoir une procédure de déploiement fiable sans problème lier souvent au oublier des développeurs.
 * Déployer fréquemment, permet de recevoir des feedback  sur l'intégration de l'application sur le serveur ainsi les utilisateurs peuvent bénéficier rapidement des nouveautés de même les développeurs peuvent revoir et corriger leur code source quand il est toujours chaud en mémoire.
 
-En commençant par un correctif ou l'ajout d'une nouvelle fonctionnalité apportés au code jusqu’à son déploiement en production est appelé le « pipeline de déploiement ».
-
-En réduisant le délais entre la demande du client et la mise à disposition de la nouvelle fonctionnalité ou d'un correctif d'un bug, la satisfaction du client augmente.
-
-En fin de livraison, on pourra utilisée des outils du cloud, des outils comme 
+En commençant par un correctif ou l'ajout d'une nouvelle fonctionnalité apportés au code jusqu’à son déploiement en production est appelé le « pipeline de déploiement ». Ainsi, en réduisant le délais entre la demande du client et la mise à disposition de la nouvelle fonctionnalité ou d'un correctif d'un bug, la satisfaction du client augmente.
 
 ### Intégration continue
 

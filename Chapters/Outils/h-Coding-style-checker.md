@@ -1,18 +1,18 @@
 
 ## Coding style checker
 
-Cet outil fait partie des outils importants pour faciliter la relecture et la maintenabilité du code. En effet Il permet de tester si les normes de codage fixé sont bien respecté par les programmeurs. Ces règles doivent être respectées car si elles ne sont pas suivi à la lettre on se retrouve en général avec un code non uniforme ce qui ne simplifie pas sa lecture.
+Cet outil fait partie des outils les plus importants pour faciliter la relecture et la maintenabilité du code. En effet, il permet de tester si les normes de codage fixé sont bien respecté par les programmeurs. Ces règles doivent être respectées car si elles ne sont pas suivi à la lettre on se retrouve en général avec un code non uniforme ce qui ne simplifie pas sa lecture.
 
 Voici quelques règles assez communes :
 
-- Utiliser des quatre espaces au lieu des tabulations (ce qui permet d'avoir le même code sur n'importe quelle machine).
+- Utiliser quatre espaces au lieu des tabulations (ce qui permet d'avoir le même code sur n'importe quelle machine).
 
 - Une ligne ne doit pas faire plus d'un certains nombre de caractères. Le nombre de caractères est en général situé entre 80 et 120. Si une ligne fait plus en général il vaut mieux la découper sur plusieurs lignes ce qui facilitera sa lecture.
 
 - La façon écrire du code. Par exemple doit on sauter une ligne après la fin d'une méthode, doit on mettre un espace entre une le if et la parenthèse.
 
 Il existe des règles de codage que l'on considère comme des références dans chaque langages qui sont en général décidé avec des membres important de la communauté.
-Pour illustrer prenons la norme PSR-2 de PHP[^php_codeconventions]. Il existe aussi les conventions pour le langage Java[^java_codeconventions].
+Pour illustrer, prenons la norme PSR-2 de PHP[^php_codeconventions]. Il existe aussi les conventions pour le langage Java[^java_codeconventions].
 
 [^java_codeconventions]: http://www.oracle.com/technetwork/java/javase/documentation/codeconventions-139411.html
 [^php_codeconventions]: https://github.com/php-fig/fig-standards/blob/master/accepted/fr/PSR-2-coding-style-guide.md
