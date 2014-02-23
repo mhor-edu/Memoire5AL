@@ -31,10 +31,12 @@ En fin de livraison, on pourra utilisée des outils du cloud, des outils comme
 L'intégration continue ne correspond pas a une seule pratique mais a un ensemble de pratique qui permet de vérifier le bon fonctionnement du code a chaque commit du développeur ainsi cela réduit les risques par exemple de régression ainsi 
 <!-- parler de Google AppEngine et de Heroku -->
 
+Ci-dessous quelques image de Travis-Ci qui est une des valeurs sûr dans ce domaine, il peut être utilisé gratuitement pour les projets open-source
 <div>![Interface de travis](img/travis.png)</div>
+Voici la page principal d'un projet, elle montre le dernier build du projet, on voit que cette interface est beaucoup plus dépouillé que celle de Jenkins, ici il faut oublié tout le coté statistique.
+
 <div>![](img/travis-pr.png)</div>
-<div>![](img/trello-overview.png)</div>
-<div>![](img/trello-task.png)</div>
+Lorsqu'on utilise Git il est très pratique de tester via une pull request si le code compile toujours avant d'appliquer les modification dans le code source.
 
 ## L'Intégration continue en local
 

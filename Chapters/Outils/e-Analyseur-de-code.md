@@ -6,8 +6,16 @@ De nombreux outils permettent de contrôler quelques aspects de cette qualité d
 
 Lorsque l'on sait que le coût de la correction d'une erreur augmente considérablement avec le temps, un outil de surveillance permet la détection précoce de ces éventuels problèmes et l'on comprend très vite l'importance de la détection rapide des erreurs ...
 
+Voici quelques exemples de resultat que pourrait renvoyer un analyseur de code.
+
+Les deux images qui suivent sont extraite de l'analyse du projet PHP sur Scrutinez-ci
 <div>![](img/code-quality.png)</div>
+Dans l'image ci-dessus nous voyons l'analyse du code d'une classe. On y voit toutes les métriques (complexité, nombre de ligne, taux de couverture, nombre de ligne). Grâce à ces métriques une note est attribué à la classe.
+
 
 <div>![](img/code-quality2.png)</div>
+Ici on voit un vue plus global de tout le projet on y voit toutes les notes des classes du projet.
+
 
 <div>![](img/mess.png)</div>
+Cette capture d'écran à été effectué par un analyseur spécialisé dans le framework PHP Symfony2. On voit qu'il est aussi capable en plus de l'outils précédent de detecter des erreurs lié au code et  de donner des conseils afin de résoudre les problèmes.
