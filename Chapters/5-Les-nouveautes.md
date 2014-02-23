@@ -44,8 +44,8 @@ Depuis quelque temps, nous avons la possibilité d'installer les outils en local
 
 Les outils d'intégration continue en local se multiplie ainsi on peut nommée comme outils Emma[^emma] pour une gestion du coverage du code pour des applications java et son equivalent pour des applications PHP, sismo[^sismo]
 
-[^sismo]: http://sismo.sensiolabs.org/
-[^emma]: http://mojo.codehaus.org/emma-maven-plugin/index.html
+[^sismo]: Sismo : http://sismo.sensiolabs.org/
+[^emma]: Emma : http://mojo.codehaus.org/emma-maven-plugin/index.html
 
 
 <div>![](img/emma_som.png)</div>
