@@ -10,4 +10,4 @@ Afin de gérer au mieux le projets afin que l'intégration continue fonctionne a
 
 Pour finir, les technologies à l'intégration continue qui va se démocratiser dans un avenir proche comme les serveurs d'intégration continuent directement dans le cloud sont l’avenir.
 
-Mot clés : Intégration continue, Agile, TDD
+Mot clés : Intégration continue, Agile, TDD, qualité de code, bonne pratique
