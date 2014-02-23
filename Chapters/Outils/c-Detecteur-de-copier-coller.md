@@ -4,7 +4,7 @@ Rien qu'au titre on voit tout de suite l'intérêt de cet outil en effet il perm
 
 L'outil en lui même va aider les équipes à détecter les morceaux de code recopie ce qui permettra donc aux développeurs d'identifier les parties du code qu'il faut factoriser au plus vite pour rendre le code plus maintenable et éviter les modifications en chaîne de code, les bugs et régressions.
 
-Exemple de détecteur de copier/coller:
+Exemple de détecteur de copier/coller : Mess Detector[^mess_detector] pour Java
 
-Mess Detector : http://fr.wikipedia.org/wiki/PMD_(logiciel)
+[^mess_detector]: Mess Detector : http://fr.wikipedia.org/wiki/PMD_(logiciel)
 
