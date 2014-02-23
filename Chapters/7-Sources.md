@@ -42,7 +42,7 @@ http://docs.behat.org/
 
 http://cukes.info/
 
-### DDD
+## DDD
 
 http://en.wikipedia.org/wiki/Domain-driven_design
 
