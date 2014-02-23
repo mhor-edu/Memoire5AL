@@ -1,3 +1,3 @@
 % Les enjeux de l’intégration continue
 % Maxime HORCHOLLE & Cédric TESNIERE
-% Lundi 13 Janvier 2014
+% Lundi 24 Fevrier 2014
