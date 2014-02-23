@@ -8,7 +8,7 @@ Lorsqu'on utilise le BDD c'est bien le client qui va créer les tests unitaires,
 
 
 ### Comment ça marche?
-Et bien rien de très compliqué, le client écrit sous forme de texte les fonctionnalités qu'il attend sous forme d'un langage compréhensible par le logiciel, puis celui-ci va générer des tests unitaires qui correspondent à ce que le client écrit.
+Et bien rien de très compliqué, le client écrit sous forme de texte les fonctionnalités (Features) qu'il attend sous forme d'un langage compréhensible par le logiciel de BDD, puis pour chaque fonctionnalités il écrit un certains nombre de sénario visant à tester le comportement qu'il souhaite donner à cette Feature. Une fois un certain nombre de scenario écrit pour la feature le developpeur code la-dite feature puis grâce à son logiciel de BDD celui-ci va générer des tests unitaires qui correspondent à aux scenario (cette partie est invisible aux yeux du developpeur), afin de tester si le code de la feature a bien été implementé.
 
 ### Les solutions existante
 Maintenant nous allons voir deux solutions sur lesquels ont peut baser le Behavior Driven Development. Ici nous n'en présentont que deux mais il en existe bien d'autre. Cette méthode de développement étant assez recente il est possible qu'il soit assez difficile de trouver beaucoup de ressources fiables pour votre langage favoris.
