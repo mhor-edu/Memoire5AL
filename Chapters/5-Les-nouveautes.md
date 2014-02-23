@@ -45,7 +45,7 @@ Ci-dessous quelques image de Travis-CI qui est une des valeurs sûr dans ce doma
 Voici la page principal d'un projet, elle montre le dernier build du projet, on voit que cette interface est beaucoup plus dépouillé que celle de Jenkins, ici il faut oublié tout le coté statistique.
 <div>![](img/travis-pr.png)</div>
 
-Lorsqu'on utilise Git, il est très pratique de tester via une pull request si le code compile toujours avant d'appliquer les modification dans le code source.
+Lorsque l'on utilise Git, il est très pratique après avoir développer sa feature d'effectuer un pull request et ainsi vérifier si le code compile toujours avant d'appliquer les modifications dans la branche principale.
 
 ## L'Intégration continue en local
 
