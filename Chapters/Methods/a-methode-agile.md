@@ -54,7 +54,5 @@ Cette méthode offre seulement des aspects de gestion de projets aidant les dév
 
 ### eXtreme Programming (XP)
 
-Publiée en 1999 par Kent Beck, Ward Cunningham et Ron Jeffries, cette méthode permet 
-
-La Programmation Extreme est une méthode agile de développement de logiciels méthodologie. Il nous donne un processus qui permet de créer des logiciels de manière agile et productive. Il traite, mais ne se spécialisent pas dans la gestion du processus de développement, et se concentre principalement sur ​​les pratiques d'ingénierie nécessaires pour fournir des logiciels, avec la qualité.
-XP se compose d'un certain nombre de pratiques méthodologie, conçus pour être utilisés ensemble. Par exemple le TDD, cependant les organisations ne veulent pas nécessairement toute adopter l'eXtreme Programming et préfere generalement la méthode Scrum combiné avec le Kaban
+Publiée en 1999 par Kent Beck, Ward Cunningham et Ron Jeffries, la Programmation Extreme est une méthode agile de développement de logiciels méthodologie. Il nous donne un processus qui permet de créer des logiciels de manière agile et productive. Il traite, mais ne se spécialisent pas dans la gestion du processus de développement, et se concentre principalement sur les pratiques d'ingénierie nécessaires pour fournir des logiciels, avec la qualité.
+XP se compose d'un certain nombre de pratiques méthodologie, conçus pour être utilisés ensemble. Par exemple le TDD, cependant les organisations ne veulent pas nécessairement toute adopter l'eXtreme Programming et préfere generalement la méthode Scrum combiné avec le Kaban.
