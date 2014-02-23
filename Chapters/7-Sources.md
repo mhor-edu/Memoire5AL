@@ -41,3 +41,11 @@ http://behat.org/
 http://docs.behat.org/
 
 http://cukes.info/
+
+### DDD
+
+http://en.wikipedia.org/wiki/Domain-driven_design
+
+http://dddcommunity.org/
+
+http://www.methodsandtools.com/archive/archive.php?id=97
