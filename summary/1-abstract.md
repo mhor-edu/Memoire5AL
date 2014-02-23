@@ -12,3 +12,4 @@ On the last part we will discuss about technologies that will democratize in the
 
 Keys Words: Continous Integration, Agile, TDD, Code Quality, Best Pratices
 
+\newpage

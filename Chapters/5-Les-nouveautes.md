@@ -1,4 +1,6 @@
 
+\newpage
+
 # Les nouveautés
 
 ## Ça va bientôt arriver dans le cloud !
@@ -57,3 +59,5 @@ Les outils d'intégration continue en local se multiplie ainsi on peut nommée c
 
 <div>![](img/emma_som.png)</div>
 <div>![](img/emma_file.png)</div>
+
+On voit clairement sur cette image les lignes qui sont testé vert est celle qui ne l'est pas en rouge.

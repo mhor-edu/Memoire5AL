@@ -18,8 +18,9 @@ Lorsque que l'on s'interresse plus particulièrement à un projet on dispose d'u
 
 Maintenant voyons Trello qui est un système plus léger bien plus adapté au développement Agile, en effet l'interface est fait pour suivre le concept de la plupart des méthodes agiles, meme si il faut reconnaitre que Jira sera tout de même plus adapté pour de plus grosse équipe (ce qui ne suis pas les préconisation des méthodes agiles) grâce a des plugins dédiés
 
-<div>![](img/trello-overview.png)</div>
-Ici on reconnait désormais fameux tableau de post-it cher à toutes les méthodes agiles celui-ci est personnalisable selon ses besoins.
-
 <div>![](img/trello-task.png)</div>
 Voici ce que l'ont peut voir lorsqu'on veut plus d'information sur une "tâche"
+
+<div>![](img/trello-overview.png)</div>
+Ici on reconnait désormais le fameux tableau de post-it cher à toutes les méthodes agiles celui-ci est personnalisable selon ses besoins.
+

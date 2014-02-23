@@ -1,3 +1,6 @@
+
+\newpage
+
 # Conclusion
 
 Aujourd'hui l'intégration continue est un grand atout pour n'importe quel projet. Avec une bonne maîtrise de cette pratique, une entreprise pourra réduire les coûts de réparation de bug avec une meilleure efficacité ainsi le client verra son application s'améliorer sans pour autant avoir des régressions dans le code. Cette pratique sera accompagnée de different outils et méthode.
