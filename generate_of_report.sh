@@ -12,7 +12,7 @@ pandoc -N --template=templates/mytemplate.tex --variable mainfont=Georgia --vari
 echo "Done Generate of report"
 
 echo "Fusion"
-gs -dBATCH -dNOPAUSE -sDEVICE=pdfwrite -sOutputFile=memoire.pdf PageCouverture.pdf output.pdf plagiat.pdf
+gs -dBATCH -dNOPAUSE -sDEVICE=pdfwrite -sOutputFile=memoire.pdf templates/PageCouverture.pdf output.pdf templates/plagiat.pdf
 echo "Done Fusion"
 
 rm output.pdf
