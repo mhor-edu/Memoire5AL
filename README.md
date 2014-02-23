@@ -45,8 +45,8 @@ Executer la requête suivante dans le terminal :
 
 La dernière version du PDF est accessible à l'adresse suivante :   
 
-* [Donwload](https://github.com/mhor/Memoire5AL/raw/master/memoire.pdf)  
-* [Preview](http://docs.google.com/viewer?url=https%3A%2F%2Fgithub.com%2Fmhor%2FMemoire5AL%2Fraw%2Fmaster%2Fmemoire.pdf)
+* [Donwload](https://github.com/mhor/Memoire5AL/raw/master/output.pdf)  
+* [Preview](http://docs.google.com/viewer?url=https%3A%2F%2Fgithub.com%2Fmhor%2FMemoire5AL%2Fraw%2Fmaster%2Foutput.pdf)
  
 ### License:
 Tous les textes sont sous licence GPL, pour plus d'information voir le fichier ``LICENSE``
