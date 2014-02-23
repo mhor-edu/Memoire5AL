@@ -54,3 +54,5 @@ http://www.methodsandtools.com/archive/archive.php?id=97
 
 http://www.cienum.fr/sites-internet-mobiles/projets/methodologie-de-projets/kanban
 
+http://www.crisp.se/file-uploads/kanban-example.pdf
+
