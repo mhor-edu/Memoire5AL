@@ -8,5 +8,5 @@ Lorsque que l'ont fait du DDD ont part du principe que le plus important c'est d
 
 Voici le cycle de vie d'un projet qui utilise le DDD:
 
-<div>![](img/ddd-life-cycle.png)</div>
+<div>![](img/ddd-lifecycle.png)</div>
 
