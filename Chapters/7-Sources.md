@@ -31,3 +31,13 @@ http://fr.wikipedia.org/wiki/Test_d'int%C3%A9gration
 ### Tests fonctionnels
 
 http://blog.octo.com/demarches-de-tests-fonctionnels/
+
+### BDD
+
+http://en.wikipedia.org/wiki/Behavior-driven_development
+
+http://behat.org/
+
+http://docs.behat.org/
+
+http://cukes.info/
