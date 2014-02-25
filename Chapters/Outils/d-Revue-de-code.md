@@ -1,3 +1,0 @@
-
-## Revue de code
-La revue de code consiste à faire relire le code par une personne qui n'a pas écrit ce code en presence ou non de la personne qui à codé. On voit tout de suite l'effet positif principal de cette technique: si une personne extérieur vérifie le code de l'autre il peut évaluer la qualité du code qui a été écrit et faire des retour à la personne qui l'a écrite. Il peut être aussi interessant de faire participer la personne qui a codé à la relecture du code afin d'expliquer ce qu'il a fait à l'autre, cette méthode permet en plus de vérifier la qualité du code, de partager l'expérience  et les connaissances de chacun pour éviter qu'une seule personne soit au courant d'un morceau de code spécial (work arround, etc...)

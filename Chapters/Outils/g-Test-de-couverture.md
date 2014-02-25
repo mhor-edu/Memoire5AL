@@ -1,8 +1,0 @@
-
-## Test de couverture
-
-Après tout ce que nous avons pu voir j'espère que vous avez compris que le test est une chose essentielle en intégration continue. Mais une question se pose comment estime-t-on qu'un logiciel est suffisamment testé ? Une question bien difficile à répondre sauf dans un cas : celui des tests unitaires, en effet il existe des solutions dans tous les langages qui calculent ce que l'on appelle le taux de couverture. Il s'agit du pourcentage de ligne qui est testé via les tests unitaires sur le nombre total de ligne du projet, donc plus on se rapproche de 100% plus les tests unitaires couvrent tous les cas possibles. Quelques solutions vont même plus loin dans le test de couverture en proposant par exemple de consulter le code du projet et de voir visuellement les lignes tester sont celles qui ne le sont pas encore. Cette fonctionnalité est aussi la bienvenue pour voir les parties des fonctions qui n'ont pas été testé, par exemple il est rare de voir les développeurs testés tous les cas d'erreur possible d'une fonction.
-
-En général lorsqu'un logiciel est testé à moins de 50% ont doit commencer à se poser des questions. Et recadrer au plus vite le projet afin de faire remonter le taux de couverture afin d'être sûr que le projet n'a pas subi de régressions. On estime un projet bien testé unitairement lorsqu'il a un taux de couverture supérieur à 70%. Et qu'il est très bien testé en 90% et 100%, le taux de 100% reste assez utopique pour les gros projets.
-
-Pour finir sur le taux de couverture il faut justes signalés qu'il ne teste en aucun cas la qualité des tests unitaires donc si les tests ne sont pas pertinents (pas d'assertions, etc...) le logiciel ne le détectera pas...
