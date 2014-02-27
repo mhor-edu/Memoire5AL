@@ -71,5 +71,5 @@ La présentation est disponible à cette adresse :
 * [Conclusion](./Chapters/6-Conclusion.md)
 * [Les sources](./Chapters/7-Sources.md)
 
-### License:
-Tous les textes sont sous licence GPL, pour plus d'information voir le fichier ``LICENSE``
+### License
+Tous les textes sont sous licence GPL, pour plus d'information voir le fichier [LICENSE](./LICENSE)
