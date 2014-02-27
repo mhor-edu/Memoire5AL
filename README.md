@@ -1,8 +1,31 @@
 # Memoire5AL [![Stories in Ready](https://badge.waffle.io/mhor/memoire5al.png?label=ready)](https://waffle.io/mhor/memoire5al)
 
-## Sujet
+Mémoire de recherche de 5ème année de master d'Architecture des Logicielle sur "Les enjeux de l’intégration continue" par [Maxime HORCHOLLE](http://github.com/mhor/) et [Cédric TESNIERE](http://github.com/ctesniere/).
 
-Mémoire de recherche à propos de "Les enjeux de l’intégration continue".
+## Compilation du projet
+
+### Prérequis
+
+- Installation de [Pandoc](http://johnmacfarlane.net/pandoc/)
+- Installation de [LaTex](http://latex-project.org/ftp.html)
+
+### Export en PDF
+
+Executer la requête suivante dans le terminal :
+
+> . generate_of_report.sh
+
+## Rendu Final
+
+La dernière version du PDF est accessible à l'adresse suivante :   
+
+* [Donwload](https://github.com/mhor/Memoire5AL/raw/master/memoire.pdf)  
+* [Preview](http://docs.google.com/viewer?url=https%3A%2F%2Fgithub.com%2Fmhor%2FMemoire5AL%2Fraw%2Fmaster%2Fmemoire.pdf)
+ 
+La présentation est disponible à cette adresse :
+
+* [Slide](http://mhor.github.io/Memoire5AL/)
+ 
 
 ## Table des matières
 
@@ -47,31 +70,6 @@ Mémoire de recherche à propos de "Les enjeux de l’intégration continue".
   * [L’Intégration continue en local](./Chapters/5-Les-nouveautes.md#lint%C3%A9gration-continue-en-local)
 * [Conclusion](./Chapters/6-Conclusion.md)
 * [Les sources](./Chapters/7-Sources.md)
-
-## Compilation du projet
-
-### Prérequis
-
-- Installation de [Pandoc](http://johnmacfarlane.net/pandoc/)
-- Installation de [LaTex](http://latex-project.org/ftp.html)
-
-### Export en PDF
-
-Executer la requête suivante dans le terminal :
-
-> . generate_of_report.sh
-
-### Rendu Final
-
-La dernière version du PDF est accessible à l'adresse suivante :   
-
-* [Donwload](https://github.com/mhor/Memoire5AL/raw/master/memoire.pdf)  
-* [Preview](http://docs.google.com/viewer?url=https%3A%2F%2Fgithub.com%2Fmhor%2FMemoire5AL%2Fraw%2Fmaster%2Fmemoire.pdf)
- 
-La présentation est disponible à cette adresse :
-
-* [Slide](http://mhor.github.io/Memoire5AL/)
- 
 
 ### License:
 Tous les textes sont sous licence GPL, pour plus d'information voir le fichier ``LICENSE``
