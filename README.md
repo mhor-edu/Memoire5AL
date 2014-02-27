@@ -51,6 +51,9 @@ La dernière version du PDF est accessible à l'adresse suivante :
 La présentation est disponible a cette adresse :
 
 * [Slide](http://mhor.github.io/Memoire5AL/)
+ 
+### Slides
+Les slides de presentation du mémoire ce trouve sur la branche gh-pages: http://mhor.github.io/Memoire5AL
 
 ### License:
 Tous les textes sont sous licence GPL, pour plus d'information voir le fichier ``LICENSE``
