@@ -6,8 +6,8 @@ Mémoire de recherche de 5ème année de master d'Architecture des Logicielle su
 
 ### Prérequis
 
-- Installation de [Pandoc](http://johnmacfarlane.net/pandoc/)
 - Installation de [LaTex](http://latex-project.org/ftp.html)
+- Installation de [Pandoc](http://johnmacfarlane.net/pandoc/)
 
 ### Export en PDF
 
