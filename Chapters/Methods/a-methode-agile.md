@@ -1,5 +1,4 @@
-
-## Méthode agiles
+## Méthodes agiles
 
 Dans cette partie nous allons dans un premier temps expliquer ce qu'est une méthode agile ensuite nous verrons les méthodes agiles les plus utilisées afin de vous convaincre à vous lancer dans la mise en oeuvre de méthode agile.
 
