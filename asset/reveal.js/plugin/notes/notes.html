@@ -12,7 +12,7 @@
 
 			#notes {
 				font-size: 24px;
-				width: 640px;
+				margin: 0 20px 0 20px;
 				margin-top: 5px;
 				clear: left;
 			}
@@ -197,9 +197,16 @@
 								notes.innerHTML = marked( data.notes );
 							}
 							else {
+								data.notes = data.notes.replace(/\n+/g,'<br/>');
+								var regex = new RegExp('  ', 'g');
+								data.notes = data.notes.replace(regex,'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;');
 								notes.innerHTML = data.notes;
 							}
 						}
+
+						notes = notes.replace(/\n+/g,'<br/>');
+						var regex = new RegExp('  ', 'g');
+						notes = notes.replace(regex,'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;');
 
 						silenced = true;
 
