@@ -46,23 +46,23 @@
 				<section>
 					<section>
 						<h1>Pourquoi ce sujet?</h1>
-						<div class="notes">
+					    <aside class="notes">
 							- Cela nous concerne
-					    </div>
+					    </aside>
 					</section>
-					<section>
+					<section >
 						<h1>Parce que c'est l'avenir!</h1>
-						<div class="notes">
+					    <aside class="notes">
 							- concept agile
-					    </div>
+					    </aside>
 					</section>
 				</section>
 				<section>
 					<section>
 						<h1>C'est quoi l'intégration continue?</h1>
-						<div class="notes">
+						<aside class="notes">
 							- concept agile
-					    </div>
+					    </aside>
 					</section>
 					<section>
 						<h1>Tester en continue son application</h1>
@@ -86,7 +86,7 @@
 					</section>
 					<section>
 						<h1>Les tests automatisés</h1>
-						<div class="notes">
+						<aside class="notes">
 							- Les tests unitaires
 							  - plus répandu, le plus efficace, assez simple à mettre en place
 							  - tests "boite blanche" (test à accès au code)
@@ -102,32 +102,29 @@
 							- Les tests d’intégrations
 							  - effectuer à la fin du développement
 							  - déplacé dans les tests unitaire et sont donc automatisé
-					    </div>
+					    </aside>
 					</section>
 					<section>
 						<h1>Le serveur de sources</h1>
-						<div class="notes">
-							- Les tests unitaires
-							  - plus répandu, le plus efficace, assez simple à mettre en place
-							  - tests "boite blanche" (test à accès au code)
+						<aside class="notes">
+							- sert à stocker, versionner et partager son code
+							- Avantage :
+							  - Partager le code plus eﬃcacement
+							  - historique de toutes les modiﬁcations
+							  - Géstion des versions.
 
-							- Les tests fonctionnels
-							  - Bon fonctionnement de l’interface graphique = Ennuyeux
-							  - Robot effectue les tâches = Si problème alors probleme dans l'interface
-							  - 2 types d'outils
-							    - test application web : Simule l'utilisation d'un navigateur web
-							    - test application native : prennent la main sur toute la machine (Inconvenient : Machine dédié)
-							  - 
-
-							- Les tests d’intégrations
-							  - effectuer à la fin du développement
-							  - déplacé dans les tests unitaire et sont donc automatisé
-					    </div>
+							- gestionnaires décentralisés
+							  - commits atomiques sur sa machine
+							  - aspect communautaire renforcé
+					    </aside>
 					</section>
 					<section>
 						<h2>Mess Detector</h2>
 						<h2>Copy/Paste Detector</h2>
 						<h2>Check Style</h2>
+						<aside class="notes">
+							- 
+					    </aside>
 					</section>
 					<section>
 						<h1>Le serveur d'intégration continue</h1>
@@ -211,14 +208,6 @@
 					{ src: 'asset/reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
 				]
 			});
-
-			Reveal.addEventListener( 'slidechanged', function( event ) {
-				// event.previousSlide, event.currentSlide, event.indexh, event.indexv
-				var notes = event.currentSlide.querySelector(".notes");
-				if(notes) {
-					console.info(notes.innerHTML.replace(/\t+/g,''));
-				}
-			} );
 		</script>
 	</body>
 </html>
