@@ -186,7 +186,9 @@
 					</section>
 					<section>
 						<h1>Google Tendances</h1>
-						<img src="./images/GoogleTendances.png" />
+						<a href="http://www.google.fr/trends/explore#q=Continuous%20Integration&cmpt=q">
+							<img src="./images/GoogleTendances.png" />
+						</a>
 					</section>
 					<section>
 						<h1>De l'intégration continue dans le cloud</h1>
@@ -263,6 +265,12 @@
 					console.info(notes.innerHTML.replace(/\t+/g,''));
 				}
 			} );
+
+			// Open all link in new windows
+			window.onload = function() {
+				var anchors = document.getElementsByTagName('a');
+				for (var i=0; i<anchors.length; i++){ anchors[i].setAttribute('target', '_blank') }
+			}
 		</script>
 	</body>
 </html>
