@@ -64,6 +64,7 @@
 					<section>
 						<h1>C'est quoi l'intégration continue?</h1>
 						<aside class="notes">
+							@Maxime
 							- Concept agile
 							- Issue de l'eXtreme Programming (XP)
 							- Mise en oeuvre par ajout d'un certain nombre d'outils
@@ -73,33 +74,45 @@
 					<section>
 						<h1>Tester en continu son application</h1>
 						<aside class="notes">
+							@Maxime
 							- 
 					    </aside>
 					</section>
 					<section>
 						<img src="./images/Integration-continue.jpg" />
 						<aside class="notes">
+							@Cédric
 							- Deployement continu
 						</aside>
 					</section>
 					<section>
 						<h1>Pourquoi faire?</h1>
 						<aside class="notes">
+							@Maxime
+							- 
+					    </aside>
+					</section>
+					<section>
+						<h1>Ecrire du code de qualité</h1>
+						<aside class="notes">
+							@Maxime
 							- 
 					    </aside>
 					</section>
 					<section>
 						<h1>Maintenable</h1>
-						<h1>Robuste</h1>
-						<h1>Evolutif<h1>
-						<h1>Sans Bug</h1>
+						<h1 class="fragment" data-fragment-index="1">Robuste</h1>
+						<h1 class="fragment" data-fragment-index="2">Evolutif<h1>
+						<h1 class="fragment" data-fragment-index="3">Sans Bug</h1>
 						<aside class="notes">
+							@Maxime
 							- 
 					    </aside>
 					</section>
 					<section>
 						<h1>Avantages / Inconvénients</h1>
 						<aside class="notes">
+							@Cédric
 							- Avantages
 							  - Reduire les couts pour la résolution de bug
 							  - Meilleure réactivité en cas de bugue
@@ -108,13 +121,7 @@
 							  - Recettes plus rapides au client
 							- Inconvénients
 							  - Tous les bugues ne sont pas identifié si la couverture des tests et insuffisante
-							  - Temps de la 1ere installation
-					    </aside>
-					</section>
-					<section>
-						<h1>Ecrire du code de qualité</h1>
-						<aside class="notes">
-							- 
+							  - Temps 1e install
 					    </aside>
 					</section>
 				</section>
@@ -122,13 +129,14 @@
 					<section>
 						<h1>Les outils</h1>
 						<aside class="notes">
+							@Maxime
 							- 
 					    </aside>
 					</section>
 					<section>
 						<h1>Les tests automatisés</h1>
-						<img src="" />
 						<aside class="notes">
+							@Maxime
 							- Les tests unitaires
 							  - plus répandu, le plus efficace, assez simple à mettre en place
 							  - tests "boite blanche" (test à accès au code)
@@ -139,15 +147,12 @@
 							  - 2 types d'outils
 							    - test application web : Simule l'utilisation d'un navigateur web
 							    - test application native : prennent la main sur toute la machine (Inconvenient : Machine dédié)
-
-							- Les tests d’intégrations
-							  - effectuer à la fin du développement
-							  - déplacé dans les tests unitaire et sont donc automatisé
 					    </aside>
 					</section>
 					<section>
 						<h1>Le serveur de sources</h1>
 						<aside class="notes">
+							@Cédric
 							- sert à stocker, versionner et partager son code
 							- Avantage :
 							  - Partager le code plus eﬃcacement
@@ -157,20 +162,25 @@
 							- gestionnaires décentralisés
 							  - commits atomiques sur sa machine
 							  - aspect communautaire renforcé
+
+							- git / svn
 					    </aside>
 					</section>
 					<section>
 						<h2>Mess Detector</h2>
-						<h2>Copy/Paste Detector</h2>
-						<h2>Check Style</h2>
+						<h2 class="fragment" data-fragment-index="1">Copy/Paste Detector</h2>
+						<h2 class="fragment" data-fragment-index="2">Check Style</h2>
 						<aside class="notes">
+							@Maxime
 							- 
 					    </aside>
 					</section>
 					<section>
 						<h1>Le serveur d'intégration continue</h1>
 						<aside class="notes">
+							@Cédric
 							- Executer tous les outils précédent
+							- Graph
 							- Gerer et coexister plusieur projet de plusieurs langage différents
 							- 
 					    </aside>
@@ -180,29 +190,50 @@
 					<section>
 						<h2>Comment développer efficacement avec l'intégration continue?</h2>
 						<aside class="notes">
-							- 
+							@Cedric
+							- Utiliser des methode combatible avec l'integration continu
 					    </aside>
 					</section>
 					 <section>
 						<h1>Agilité!</h1>
 						<ul>
+							<li>eXtremProgramming</li>
 							<li>SCRUM</li>
 							<li>Kan Ban</li>
-							<li>eXtremProgramming</li>
 						</ul>
 						<aside class="notes">
+							@Cedric
 							- 
 					    </aside>
 					</section>
 					<section>
 						<h1>Test Driven Devloppement</h1>
 						<aside class="notes">
+							@Maxime
 							- 
 					    </aside>
 					</section>
 					<section>
 						<h1>Behaviour Driven Devloppement</h1>
+						<pre><code data-trim>
+Feature: ls
+  In order to see the directory structure
+  As a UNIX user
+  I need to be able to list the current directory's contents
+
+  Scenario:
+    Given I am in a directory "test"
+    And I have a file named "foo"
+    And I have a file named "bar"
+    When I run "ls"
+    Then I should get:
+      """
+      bar
+      foo
+      """
+						</code></pre>
 						<aside class="notes">
+							@Maxime
 							- 
 					    </aside>
 					</section>
@@ -211,18 +242,31 @@
 					<section>
 						<h1 style="font-size:200pt">L'avenir</h1>
 						<aside class="notes">
+							@Maxime
 							- 
 					    </aside>
 					</section>
 					<section>
 						<h1>De l'intégration continue dans le cloud</h1>
+						<span style="margin-left:40px">
+							<img class="fragment" data-fragment-index="1" src="./images/travis_logo.png" height="160px" style="border:0px;" />
+						</span>
+						<span style="margin-left:40px">
+							<img class="fragment" data-fragment-index="2" src="./images/code-climate.png" height="160px" style="border:0px" />
+						</span>
+						<span style="margin-left:40px">
+							<img class="fragment" data-fragment-index="3" src="./images/scrutinizer.png" height="160px" style="border:0px" />
+						</span>
+
 						<aside class="notes">
+							@Maxime
 							- 
 					    </aside>
 					</section>
 					<section>
 						<h1>Le déploiement continu</h1>
 						<aside class="notes">
+							@Maxime
 							- 
 					    </aside>
 					</section>
