@@ -1,4 +1,3 @@
-
 \newpage
 
 # L'intégration continue
@@ -15,7 +14,7 @@ Cette phrase peut sembler contradictoire mais elle est pleine de sens, en effet 
 
 ## Qu'est-ce que c'est et pourquoi l'utiliser
 
-> « L'intégration continue est un ensemble de pratiques utilisées en génie logiciel consistant à vérifier à chaque modification de code source que le résultat des modifications ne produit pas de régression dans l'application développée. Bien que le concept existât auparavant[réf. nécessaire], l'intégration continue se réfère généralement à la pratique de l'extreme programming. » *(Source : Wikipedia)*
+> « L'intégration continue est un ensemble de pratiques utilisées en génie logiciel consistant à vérifier à chaque modification de code source que le résultat des modifications ne produit pas de régression dans l'application développée. Bien que le concept existât auparavant, l'intégration continue se réfère généralement à la pratique de l'extreme programming. » *(Source : Wikipedia)*
 
 Quand on parle d'intégration, il ne s'agit en aucun cas d'un outil magique comme bien souvent on peut en entendre parler en informatique, mais d'un concept agile. La mise en oeuvre de ce concept se fait par l'ajout d'un certain nombre d'outils, que nous verrons plus tard dans ce document, chacun de ces outils a pour but d'améliorer la qualité globale du code qui est produit. L'intégration continue fait partie des 12 méthodes d'eXtrême Programming (XP). Il existe plusieurs facteurs qui influent sur la qualité du code :
 
