@@ -1,0 +1,393 @@
+<!doctype html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+
+		<title>Les enjeux de l’intégration continue</title>
+
+		<meta name="description" content="Les enjeux de l’intégration continue">
+		<meta name="author" content="@ctesniere and @mhor">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="asset/reveal.js/css/reveal.min.css">
+		<link rel="stylesheet" href="asset/reveal.js/css/theme/default.css" id="theme">
+		<link rel="stylesheet" href="css/style.css">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="asset/reveal.js/lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+		<script>
+			document.write( '<link rel="stylesheet" href="asset/reveal.js/css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+		<div class="reveal" >
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1>Les enjeux de l’intégration continue</h1>
+					<h3>By <a href="http://github.com/mhor/">Maxime HORCHOLLE</a> / <a href="http://github.com/ctesniere/">Cédric TESNIERE</a></h3>
+					<h3>
+						<small>5ème année d'Architecture des Logiciels</small>
+					</h3>
+				</section>
+				<section>
+					<section>
+						<h1>Pourquoi ce sujet?</h1>
+					    <aside class="notes">
+							@Maxime
+							- Cela nous concerne
+						</aside>
+					</section>
+					<section>
+						<h1>Parce que c'est l'avenir!</h1>
+					    <aside class="notes">
+							@Maxime
+							- Client : Participer dans le developpement
+						</aside>
+					</section>
+					<section>
+						<h1>Google Tendances</h1>
+						<a href="http://www.google.fr/trends/explore#q=Continuous%20Integration&cmpt=q">
+							<img src="./images/GoogleTendances.png" />
+						</a>
+					    <aside class="notes">
+							@Maxime
+						</aside>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h1>C'est quoi l'intégration continue?</h1>
+						<aside class="notes">
+							@Maxime
+							- Concept agile
+							- Issue de l'eXtreme Programming (XP)
+							- Mise en oeuvre par ajout d'un certain nombre d'outils
+							- Détectées les anomalies à leur entrée
+					    </aside>
+					</section>
+					<section>
+						<h1>Tester en continu son application</h1>
+						<aside class="notes">
+							@Maxime
+							- 
+					    </aside>
+					</section>
+					<section>
+						<img src="./images/Integration-continue2.jpg" />
+						<aside class="notes">
+							@Cédric
+							- Deploiement continu
+							- Developpe et conçoit des features
+							- detecte commit
+							- pre-installation 
+						</aside>
+					</section>
+					<section>
+						<h1>Pour quoi faire?</h1>
+						<aside class="notes">
+							@Maxime
+							- test immédiat des unités modifiées
+					    </aside>
+					</section>
+					<section>
+						<h1>Ecrire du code de qualité</h1>
+						<aside class="notes">
+							@Maxime
+							- 
+					    </aside>
+					</section>
+					<section>
+						<h1>Maintenable</h1>
+						<h1 class="fragment" data-fragment-index="1">Robuste</h1>
+						<h1 class="fragment" data-fragment-index="2">Evolutif<h1>
+						<h1 class="fragment" data-fragment-index="3">Sans Bug</h1>
+						<aside class="notes">
+							@Maxime
+							- 
+					    </aside>
+					</section>
+					<section>
+						<h1>Avantages / Inconvénients</h1>
+						<aside class="notes">
+							@Cédric
+							- Avantages
+							  - Reduire les couts pour la résolution de bug
+							  - Meilleure réactivité en cas de bugue
+							  - Voir en temps réél l'avancement et la santé du projet
+							  - Mieux définir les besoins 
+							  - Recettes plus rapides au client
+							  - bcp de commit = moins de test manuel = plus de productivité
+							- Inconvénients
+							  - bugues pas identifié si couverture tests et insuffisante
+							  - Temps changement des developpeurs
+							  - En cours de projet
+					    </aside>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h1>Les outils</h1>
+						<aside class="notes">
+							@Maxime
+							- 
+					    </aside>
+					</section>
+					<section>
+						<h1>Les tests automatisés</h1>
+						<aside class="notes">
+							@Maxime
+							- Les tests unitaires
+							  - plus répandu, le plus efficace, assez simple à mettre en place
+							  - tests "boite blanche" (test à accès au code)
+
+							- Les tests fonctionnels
+							  - Bon fonctionnement de l’interface graphique = Ennuyeux
+							  - Robot effectue les tâches = Si problème alors probleme dans l'interface
+							  - 2 types d'outils
+							    - test application web : Simule l'utilisation d'un navigateur web
+							    - test application native : prennent la main sur toute la machine (Inconvenient : Machine dédié)
+					    </aside>
+					</section>
+					<section>
+						<h1>Le serveur de sources</h1>
+						<span style="margin-left:40px">
+							<img class="fragment" data-fragment-index="1" src="./images/git.png" height="160px" style="border:0px;" />
+						</span>
+						<span style="margin-left:40px">
+							<img class="fragment" data-fragment-index="2" src="./images/subversion.png" height="160px" style="border:0px;" />
+						</span>
+						<aside class="notes">
+							@Cédric
+							- sert à stocker, versionner et partager son code
+
+							- git / svn
+
+							- gestionnaires décentralisés
+							  - commits atomiques sur sa machine
+							  - aspect communautaire renforcé
+
+							- Avantage :
+							  - Partager le code plus eﬃcacement
+							  - historique de toutes les modiﬁcations
+							  - Géstion des versions.
+					    </aside>
+					</section>
+					<section>
+						<h2>Mess Detector</h2>
+						<h2 class="fragment" data-fragment-index="1">Copy/Paste Detector</h2>
+						<h2 class="fragment" data-fragment-index="2">Check Style</h2>
+						<aside class="notes">
+							@Maxime
+							- 
+					    </aside>
+					</section>
+					<section>
+						<h1>Le serveur d'intégration continue</h1>
+						<span style="margin-left:40px">
+							<img class="fragment" data-fragment-index="1" src="./images/hudson.png" height="160px" style="border:0px;" />
+						</span>
+						<span style="margin-left:40px">
+							<img class="fragment" data-fragment-index="2" src="./images/Jenkins.png" height="160px" style="border:0px;" />
+						</span>
+						<aside class="notes">
+							@Cédric
+							- Executer tous les outils précédent
+							- Graphique
+							  - Santé
+							  - qualité du code
+							  - issue
+						</aside>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>Comment développer <span style="color:#D9534F">efficacement</span> avec l'intégration continue?</h2>
+						<aside class="notes">
+							@Cedric
+							- Utiliser des methode combatible avec l'integration continu
+							- Fonctionne seulement avec l'agilité
+						</aside>
+					</section>
+					 <section>
+						<h1>Agilité!</h1>
+						<ul>
+							<li>eXtremProgramming</li>
+							<li>SCRUM</li>
+							<li>Kan Ban</li>
+						</ul>
+						<aside class="notes">
+							@Cedric
+							- méthodologie de gestion de projet agile
+							- Combler defaut du V (tunnel)
+						</aside>
+					</section>
+					<section>
+						<h1>Test Driven Devloppement</h1>
+						<aside class="notes">
+							@Maxime
+							- 
+						</aside>
+					</section>
+					<section>
+						<h1>Behaviour Driven Devloppement</h1>
+						<pre><code data-trim>
+Feature: ls
+  In order to see the directory structure
+  As a UNIX user
+  I need to be able to list the current directory's contents
+
+  Scenario:
+    Given I am in a directory "test"
+    And I have a file named "foo"
+    And I have a file named "bar"
+    When I run "ls"
+    Then I should get:
+      """
+      bar
+      foo
+      """
+						</code></pre>
+						<aside class="notes">
+							@Maxime
+							- 
+						</aside>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h1 style="font-size:200pt">L'avenir</h1>
+						<aside class="notes">
+							@Maxime
+							- 
+						</aside>
+					</section>
+					<section>
+						<h1>De l'intégration continue dans le cloud</h1>
+						<span style="margin-left:40px">
+							<img class="fragment" data-fragment-index="1" src="./images/travis_logo.png" height="160px" style="border:0px;" />
+						</span>
+						<span style="margin-left:40px">
+							<img class="fragment" data-fragment-index="2" src="./images/code-climate.png" height="160px" style="border:0px" />
+						</span>
+						<span style="margin-left:40px">
+							<img class="fragment" data-fragment-index="3" src="./images/scrutinizer.png" height="160px" style="border:0px" />
+						</span>
+
+						<aside class="notes">
+							@Maxime
+							- 
+						</aside>
+					</section>
+					<section>
+						<h1>Le déploiement continu</h1>
+						<span style="margin-left:40px">
+							<img class="fragment" data-fragment-index="3" src="./images/heroku.jpg" height="180px" style="border:0px" />
+						</span>
+						<aside class="notes">
+							@Maxime
+							- 
+						</aside>
+					</section>
+				</section>
+				<section>
+					<h1>Conclusion</h1>
+					<aside class="notes">
+						@Cédric 
+						- C'est un tournant dans la productivité d'une entreprise
+						- clean et sans regression
+						<br>
+						@Maxime
+						- ne pas utiliser tous les outils
+						- difficile projet en cours
+						<br>
+						@Maxime et @Cédric
+						- Apport du memoire
+						- Completer mes connaissance
+					</aside>
+				</section>
+				<section>
+					<h3>Retrouvez les slides ici:</h3>
+					<h2><a href="http://mhor.github.io/Memoire5AL">http://mhor.github.io/Memoire5AL</a></h2>
+					<br>
+					<h3 class="fragment" data-fragment-index="1">Les sources du mémoire sont disponibles ici:<h3>
+					<h2 class="fragment" data-fragment-index="1"><a href="http://github.com/mhor/Memoire5AL">http://github.com/mhor/Memoire5AL</a></h2>
+					<aside class="notes">
+						@Maxime
+						- 
+					</aside>
+				</section>
+				<section>
+					<h1 style="font-size:200pt">QUESTIONS?</h1>
+					<aside class="notes">
+						- 
+					</aside>
+				</section>
+				
+			</div>
+
+		</div>
+
+		<script src="asset/reveal.js/lib/js/head.min.js"></script>
+		<script src="asset/reveal.js/js/reveal.min.js"></script>
+
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+				touch: true,
+				embedded: true,
+				hideAddressBar: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'zoom', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Parallax scrolling
+				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+				// parallaxBackgroundSize: '2100px 900px',
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'asset/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'asset/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'asset/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'asset/reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'asset/reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'asset/reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+			Reveal.addEventListener( 'slidechanged', function( event ) {
+				// event.previousSlide, event.currentSlide, event.indexh, event.indexv
+				var notes = event.currentSlide.querySelector(".notes");
+				if(notes) {
+					console.info(notes.innerHTML.replace(/\t+/g,''));
+				}
+			} );
+
+			// Open all link in new windows
+			window.onload = function(){
+				var anchors = document.getElementsByTagName('a');
+				for (var i=0; i<anchors.length; i++){ anchors[i].setAttribute('target', '_blank') }
+			}
+		</script>
+	</body>
+</html>
