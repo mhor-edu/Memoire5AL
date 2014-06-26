@@ -1,4 +1,4 @@
-# Memoire5AL [![Stories in Ready](https://badge.waffle.io/mhor/memoire5al.png?label=ready)](https://waffle.io/mhor/memoire5al)
+# Memoire5AL [![Stories in Ready](https://badge.waffle.io/mhor-edu/memoire5al.png?label=ready)](https://waffle.io/mhor-edu/memoire5al)
 
 Mémoire de recherche de 5ème année de master d'Architecture des Logicielle sur "Les enjeux de l’intégration continue" par [Maxime HORCHOLLE](http://github.com/mhor/) et [Cédric TESNIERE](http://github.com/ctesniere/).
 
@@ -19,12 +19,12 @@ Executer la requête suivante dans le terminal :
 
 La dernière version du PDF est accessible à l'adresse suivante :   
 
-* [Donwload](https://github.com/mhor/Memoire5AL/raw/master/memoire.pdf)  
+* [Donwload](https://github.com/mhor-edu/Memoire5AL/raw/master/memoire.pdf)  
 * [Preview](http://docs.google.com/viewer?url=https%3A%2F%2Fgithub.com%2Fmhor%2FMemoire5AL%2Fraw%2Fmaster%2Fmemoire.pdf)
  
 La présentation est disponible à cette adresse :
 
-* [Slide](http://mhor.github.io/Memoire5AL/)
+* [Slide](http://mhor-edu.github.io/Memoire5AL/)
  
 
 ## Table des matières
